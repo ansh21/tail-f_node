@@ -8,7 +8,7 @@ The position is made up of two integers and a letter separated by spaces, corres
 Each rover will be finished sequentially, which means that the second rover won't start to move until the first one has finished moving.
 OUTPUT The output for each rover should be its final co-ordinates and heading.
 
-We don't want them to collide or fall off the cliff. So, 2 rovers can not occupy the same spot (as that is a collision). Similarly, they should know the grid and not fall off. That is also an error move.
+We don't want rovers to collide or fall off the cliff. So, 2 rovers can not occupy the same spot (as that is a collision). Similarly, they should know the grid and not fall off.
 
 INPUT AND OUTPUT
 Test Input:
