@@ -23,7 +23,7 @@ Run Server:
 $ node server.js
 
 Input file:
-sample_log
+input/sample_log
 
 Run client:
 http://localhost:8080/log
