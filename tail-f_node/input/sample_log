@@ -1,0 +1,805 @@
+Nov 14 00:00:02 AnshulG-MBP syslogd[37]: ASL Sender Statistics
+Nov 14 01:37:52 AnshulG-MBP WindowServer[120]: 123900.546 [DFR] ERR [_DFRDisplayUsbRecvComplete] failed 0xe00002eb
+Nov 14 01:37:52 AnshulG-MBP WindowServer[120]: 123900.586 [DFR] ERR [_DFRDisplaySendPacket] WritePipe failed 0xe00002c0
+Nov 14 01:37:52 AnshulG-MBP WindowServer[120]: 123900.587 [DFR] [deviceTerminate] 
+Nov 14 01:37:52 AnshulG-MBP WindowServer[120]: 123900.587 [DFR] [_DFRDisplayDeviceRemoved] 
+Nov 14 01:37:52 AnshulG-MBP WindowServer[120]: 123900.588 [DFR] [___DFRDisplayDeviceRemoved_block_invoke] calling client detach callback
+Nov 14 01:37:52 AnshulG-MBP WindowServer[120]: 123900.599 [DFR] [_DFRDisplayClose] 
+Nov 14 01:37:52 AnshulG-MBP syslogd[37]: ASL Sender Statistics
+Nov 14 01:37:52 AnshulG-MBP WindowServer[120]: 123900.983 [DFR] [deviceMatch] 
+Nov 14 01:37:52 AnshulG-MBP WindowServer[120]: 123900.983 [DFR] [_DFRDisplayDeviceAdded] 
+Nov 14 01:37:52 AnshulG-MBP WindowServer[120]: 123900.984 [DFR] [_DFRDisplayUsbStart] 
+Nov 14 01:37:52 AnshulG-MBP WindowServer[120]: 123900.984 [DFR] [_DFRDisplayOpen] 
+Nov 14 01:37:52 AnshulG-MBP WindowServer[120]: 123900.984 [DFR] [_DFRDisplayOpen] sending GetInfo
+Nov 14 01:37:52 AnshulG-MBP WindowServer[120]: 123900.985 [DFR] [_DFRDisplayHandleVendorPacket] kDFRDisplayCommandGetInfo ready: 0
+Nov 14 01:37:52 AnshulG-MBP WindowServer[120]: 123900.985 [DFR] [_DFRDisplayHandleVendorPacket] calling client attach callback
+Nov 14 01:37:52 AnshulG-MBP WindowServer[120]: 123900.986 [DFR] [_DFRDisplayHandleVendorPacket] kDFRDisplayCommandGetInfo ready: 1
+Nov 14 01:41:06 AnshulG-MBP com.apple.xpc.launchd[1] (com.apple.quicklook[3411]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Nov 14 01:41:19 AnshulG-MBP UserEventAgent[36]: assertion failed: 16G29: com.apple.telemetry + 58408 [165E935B-9099-32D4-945F-270EC2E89A29]: 0x5
+Nov 14 01:45:17 AnshulG-MBP com.apple.xpc.launchd[1] (com.apple.quicklook[3415]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Nov 14 01:48:22 AnshulG-MBP syslogd[37]: ASL Sender Statistics
+Nov 14 01:49:28 AnshulG-MBP com.apple.xpc.launchd[1] (com.apple.quicklook[3416]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Nov 14 01:51:19 AnshulG-MBP UserEventAgent[36]: assertion failed: 16G29: com.apple.telemetry + 58408 [165E935B-9099-32D4-945F-270EC2E89A29]: 0x5
+Nov 14 01:53:39 AnshulG-MBP com.apple.xpc.launchd[1] (com.apple.quicklook[3417]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Nov 14 01:57:49 AnshulG-MBP com.apple.xpc.launchd[1] (com.apple.quicklook[3418]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Nov 14 02:00:18 AnshulG-MBP syslogd[37]: ASL Sender Statistics
+Nov 14 02:01:19 AnshulG-MBP UserEventAgent[36]: assertion failed: 16G29: com.apple.telemetry + 58408 [165E935B-9099-32D4-945F-270EC2E89A29]: 0x5
+Nov 14 02:02:00 AnshulG-MBP com.apple.xpc.launchd[1] (com.apple.quicklook[3420]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Nov 14 02:06:11 AnshulG-MBP com.apple.xpc.launchd[1] (com.apple.quicklook[3424]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Nov 14 02:07:30 AnshulG-MBP GoogleSoftwareUpdateAgent[3425]: 2017-11-14 02:07:30.565 GoogleSoftwareUpdateAgent[3425/0x7fffa965b3c0] [lvl=2] -[KSAgentApp(PrivateMethods) setUpLoggerOutputForVerboseMode:] Agent default/global settings: <KSAgentSettings:0x100227b80 bundleID=com.google.Keystone.Agent lastCheck=2017-11-13 12:49:20 +0000 lastServerCheck=2017-10-13 07:45:01 +0000 lastCheckStart=2017-11-13 12:49:15 +0000 checkInterval=18000.000000 uiDisplayInterval=604800.000000 sleepInterval=1800.000000 jitterInterval=900 maxRunInterval=0.000000 isConsoleUser=1 ticketStorePath=/Users/Anshul.G/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore runMode=3 daemonUpdateEngineBrokerServiceName=com.google.Keystone.Daemon.UpdateEngine daemonAdministrationServiceName=com.google.Keystone.Daemon.Administration alwaysPromptForUpdates=0 lastUIDisplayed=(null) alwaysShowStatusItem=0 updateCheckTag=(null) printResults=NO userInitiated=NO>
+Nov 14 02:07:30 AnshulG-MBP GoogleSoftwareUpdateAgent[3425]: 2017-11-14 02:07:30.567 GoogleSoftwareUpdateAgent[3425/0x7fffa965b3c0] [lvl=2] -[KSAgentApp(PrivateMethods) checkForUpdatesUsingArguments:invocation:error:] Starting update check.
+Nov 14 02:07:30 AnshulG-MBP GoogleSoftwareUpdateAgent[3425]: 2017-11-14 02:07:30.568 GoogleSoftwareUpdateAgent[3425/0x700000f31000] [lvl=2] -[KSEngineInvocation(KeystoneThread) runKeystonesInThread] Starting engine thread
+Nov 14 02:07:30 AnshulG-MBP GoogleSoftwareUpdateAgent[3425]: 2017-11-14 02:07:30.582 GoogleSoftwareUpdateAgent[3425/0x700000f31000] [lvl=2] -[KSEngineInvocation(KeystoneThread) runKeystonesInThread] No functional system update engine detected. Only user tickets will be processed.
+Nov 14 02:07:30 AnshulG-MBP GoogleSoftwareUpdateAgent[3425]: 2017-11-14 02:07:30.585 GoogleSoftwareUpdateAgent[3425/0x700000f31000] [lvl=2] -[KSEngineInvocation(KeystoneThread) runKeystonesInThread] Checking with local engine: <KSUpdateEngine:0x1002a1d50
+		ticketStore=<KSPersistentTicketStore:0x10022d2f0 store=<KSKeyedPersistentStore:0x10022df60
+			path="/Users/Anshul.G/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore"
+			lockFile=<KSLockFile:0x1002980e0
+				path="/Users/Anshul.G/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore.lock"
+				locked=NO
+			>
+		>>
+		processor=<KSActionProcessor:0x1002a1f50
+			delegate=<KSUpdateEngine:0x1002a1d50>
+			isProcessing=NO actionsCompleted=0 progress=0.00
+			errors=0 currentActionErrors=0
+			events=0 currentActionEvents=0
+			actionQueue=( )
+		>
+		delegate=(null)
+		serverInfoStore=<KSServerPrivateInfoStore:0x1002a1230 path="/Users/Anshul.G/Library/Google/GoogleSoftwareUpdate/Servers">
+		errors=0
+	>
+Nov 14 02:07:30 AnshulG-MBP GoogleSoftwareUpdateAgent[3425]: 2017-11-14 02:07:30.585 GoogleSoftwareUpdateAgent[3425/0x700000f31000] [lvl=2] -[KSEngineInvocation(KeystoneThread) performSelfUpdateWithEngine:error:] Checking for self update with Engine: <KSUpdateEngine:0x1002a1d50
+		ticketStore=<KSPersistentTicketStore:0x10022d2f0 store=<KSKeyedPersistentStore:0x10022df60
+			path="/Users/Anshul.G/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore"
+			lockFile=<KSLockFile:0x1002980e0
+				path="/Users/Anshul.G/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore.lock"
+				locked=NO
+			>
+		>>
+		processor=<KSActionProcessor:0x1002a1f50
+			delegate=<KSUpdateEngine:0x1002a1d50>
+			isProcessing=NO actionsCompleted=0 progress=0.00
+			errors=0 currentActionErrors=0
+			events=0 currentActionEvents=0
+			actionQueue=( )
+		>
+		delegate=(null)
+		serverInfoStore=<KSServerPrivateInfoStore:0x1002a1230 path="/Users/Anshul.G/Library/Google/GoogleSoftwareUpdate/Servers">
+		errors=0
+	>
+Nov 14 02:07:30 AnshulG-MBP GoogleSoftwareUpdateAgent[3425]: 2017-11-14 02:07:30.585 GoogleSoftwareUpdateAgent[3425/0x700000f31000] [lvl=2] -[KSEngineInvocation(KeystoneThread) performSelfUpdateWithEngine:error:] This process may be killed if self-update is necessary. In such cases, sub-processes may still be running to complete the self-update.
+Nov 14 02:07:30 AnshulG-MBP GoogleSoftwareUpdateAgent[3425]: 2017-11-14 02:07:30.586 GoogleSoftwareUpdateAgent[3425/0x700000f31000] [lvl=2] -[KSEngineInvocation(KeystoneThread) updateProductWithProductID:usingEngine:error:] Checking for updates for "com.google.Keystone" using engine <KSUpdateEngine:0x1002a1d50
+		ticketStore=<KSPersistentTicketStore:0x10022d2f0 store=<KSKeyedPersistentStore:0x10022df60
+			path="/Users/Anshul.G/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore"
+			lockFile=<KSLockFile:0x1002980e0
+				path="/Users/Anshul.G/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore.lock"
+				locked=NO
+			>
+		>>
+		processor=<KSActionProcessor:0x1002a1f50
+			delegate=<KSUpdateEngine:0x1002a1d50>
+			isProcessing=NO actionsCompleted=0 progress=0.00
+			errors=0 currentActionErrors=0
+			events=0 currentActionEvents=0
+			actionQueue=( )
+		>
+		delegate=(null)
+		serverInfoStore=<KSServerPrivateInfoStore:0x1002a1230 path="/Users/Anshul.G/Library/Google/GoogleSoftwareUpdate/Servers">
+		errors=0
+	>
+Nov 14 02:07:30 AnshulG-MBP GoogleSoftwareUpdateAgent[3425]: 2017-11-14 02:07:30.590 GoogleSoftwareUpdateAgent[3425/0x700000f31000] [lvl=2] -[KSUpdateEngine updateProductID:] KSUpdateEngine updating product ID: "com.google.Keystone"
+Nov 14 02:07:30 AnshulG-MBP GoogleSoftwareUpdateAgent[3425]: 2017-11-14 02:07:30.592 GoogleSoftwareUpdateAgent[3425/0x700000f31000] [lvl=2] -[KSCheckAction performAction] KSCheckAction checking 1 ticket(s).
+Nov 14 02:07:30 AnshulG-MBP GoogleSoftwareUpdateAgent[3425]: 2017-11-14 02:07:30.599 GoogleSoftwareUpdateAgent[3425/0x700000f31000] [lvl=2] -[KSUpdateCheckAction performAction] KSUpdateCheckAction starting update check for ticket(s): {(
+		<KSTicket:0x1002a4700
+			productID=com.google.Keystone
+			version=1.2.9.98
+			xc=<KSPathExistenceChecker:0x10021fca0 path=/Users/Anshul.G/Library/Google/GoogleSoftwareUpdate/GoogleSoftwareUpdate.bundle>
+			url=https://tools.google.com/service/update2
+			creationDate=2017-10-04 06:45:17
+			cohort=1:0:
+			cohortName=Everyone
+			ticketVersion=1
+		>
+	)}
+	Using server: <KSOmahaServer:0x100549240
+		engine=<KSUpdateEngine:0x1002a1d50>
+	>
+Nov 14 02:07:30 AnshulG-MBP GoogleSoftwareUpdateAgent[3425]: 2017-11-14 02:07:30.633 GoogleSoftwareUpdateAgent[3425/0x700000f31000] [lvl=2] +[KSCodeSigningVerification verifyBundle:applicationId:error:] KSCodeSigningVerification verifying code signing for '/Users/Anshul.G/Library/Google/GoogleSoftwareUpdate/GoogleSoftwareUpdate.bundle/Contents/MacOS/GoogleSoftwareUpdateDaemon' with the requirement 'anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists and certificate leaf[subject.OU]="EQHXZ8M8AV" and (identifier="com.google.Keystone")'
+Nov 14 02:07:30 AnshulG-MBP GoogleSoftwareUpdateAgent[3425]: 2017-11-14 02:07:30.673 GoogleSoftwareUpdateAgent[3425/0x700000f31000] [lvl=2] -[KSUpdateCheckAction performAction] KSUpdateCheckAction running KSServerUpdateRequest: <KSOmahaServerUpdateRequest:0x100586040
+		server=<KSOmahaServer:0x100549240>
+		url="https://tools.google.com/service/update2?cup2hreq=f9f62b695e7cc93f66262275546b52af35d30ce93ab4325b0e3c519715d0f9c0&cup2key=7:797546534"
+		fallbackURLs=(
+			http://tools.google.com/service/update2?cup2hreq=f9f62b695e7cc93f66262275546b52af35d30ce93ab4325b0e3c519715d0f9c0&cup2key=7:1993513616
+		)
+		runningFetchers=0
+		tickets=1
+		body=
+			<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+			<request protocol="3.0" version="KeystoneAgent-1.2.9.98" ismachine="0" requestid="{82D7C019-ABE2-4F23-B85C-70A1F8AB1663}" dedup="cr" sessionid="{9A30039E-D2F1-435A-B429-6AFCCB653EBD}">
+			    <os platform="mac" version="10.12" arch="x86_64h" sp="10.12.6_x86_64h"></os>
+			    <app appid="com.google.Keystone" version="1.2.9.98" cohort="1:0:" cohortname="Everyone" lang="en-us" installage="40" installdate="3927" brand="GGLG" signed="1">
+			        <ping rd="3969" ad="3969" ping_freshness="{31FCF264-DB87-4BFF-A7BA-35DD5C935CAD}"></ping>
+			        <updatecheck></updatecheck>
+			    </app>
+			</request>
+		headers={
+			"X-GoogleUpdate-Interactivity" = bg;
+		}
+	>
+Nov 14 02:07:30 AnshulG-MBP GoogleSoftwareUpdateAgent[3425]: 2017-11-14 02:07:30.673 GoogleSoftwareUpdateAgent[3425/0x700000f31000] [lvl=2] -[KSOutOfProcessFetcher beginFetchWithDelegate:] KSOutOfProcessFetcher start fetch from URL: "https://tools.google.com/service/update2?cup2hreq=f9f62b695e7cc93f66262275546b52af35d30ce93ab4325b0e3c519715d0f9c0&cup2key=7:797546534"
+Nov 14 02:07:30 AnshulG-MBP GoogleSoftwareUpdateAgent[3425]: 2017-11-14 02:07:30.675 GoogleSoftwareUpdateAgent[3425/0x700000f31000] [lvl=2] -[KSOutOfProcessFetcher(PrivateMethods) launchedHelperTaskForToolPath:error:] KSOutOfProcessFetcher launched '/Users/Anshul.G/Library/Google/GoogleSoftwareUpdate/GoogleSoftwareUpdate.bundle/Contents/MacOS/ksfetch' with process id: 3427
+Nov 14 02:07:30 AnshulG-MBP GoogleSoftwareUpdateAgent[3425]: 2017-11-14 02:07:30.676 GoogleSoftwareUpdateAgent[3425/0x700000f31000] [lvl=2] -[KSOutOfProcessFetcher beginFetchWithDelegate:] KSOutOfProcessFetcher fetching from URL: "https://tools.google.com/service/update2?cup2hreq=f9f62b695e7cc93f66262275546b52af35d30ce93ab4325b0e3c519715d0f9c0&cup2key=7:797546534"
+Nov 14 02:07:30 AnshulG-MBP ksfetch[3427]: 2017-11-14 02:07:30.702 ksfetch[3427/0x7fffa965b3c0] [lvl=2] KSHelperReceiveAllData() KSHelperTool read 2035 bytes from stdin.
+Nov 14 02:07:30 AnshulG-MBP ksfetch[3427]: 2017-11-14 02:07:30.703 ksfetch[3427/0x7fffa965b3c0] [lvl=2] main() Fetcher received a request: <NSMutableURLRequest: 0x1004039e0> { URL: https://tools.google.com/service/update2?cup2hreq=f9f62b695e7cc93f66262275546b52af35d30ce93ab4325b0e3c519715d0f9c0&cup2key=7:797546534 }
+Nov 14 02:07:30 AnshulG-MBP ksfetch[3427]: 2017-11-14 02:07:30.704 ksfetch[3427/0x7fffa965b3c0] [lvl=2] main() Fetcher received a download path: /tmp/KSOutOfProcessFetcher.wWrt93SsLh/download
+Nov 14 02:07:30 AnshulG-MBP ksfetch[3427]: 2017-11-14 02:07:30.704 ksfetch[3427/0x7fffa965b3c0] [lvl=2] main() ksfetch fetching URL (<NSMutableURLRequest: 0x1004039e0> { URL: https://tools.google.com/service/update2?cup2hreq=f9f62b695e7cc93f66262275546b52af35d30ce93ab4325b0e3c519715d0f9c0&cup2key=7:797546534 }) to folder:/tmp/KSOutOfProcessFetcher.wWrt93SsLh/download
+Nov 14 02:07:30 AnshulG-MBP ksfetch[3427]: 2017-11-14 02:07:30.705 ksfetch[3427/0x7fffa965b3c0] [lvl=2] main() Setting up download file handles...
+Nov 14 02:07:31 AnshulG-MBP ksfetch[3427]: 2017-11-14 02:07:31.328 ksfetch[3427/0x7fffa965b3c0] [lvl=2] -[FetchDelegate fetcher:finishedWithData:] Fetcher downloaded successfully data of length: 0
+Nov 14 02:07:31 AnshulG-MBP ksfetch[3427]: 2017-11-14 02:07:31.329 ksfetch[3427/0x7fffa965b3c0] [lvl=2] main() ksfetch done fetching.
+Nov 14 02:07:31 AnshulG-MBP ksfetch[3427]: 2017-11-14 02:07:31.334 ksfetch[3427/0x7fffa965b3c0] [lvl=2] main() Fetcher is exiting.
+Nov 14 02:07:31 AnshulG-MBP GoogleSoftwareUpdateAgent[3425]: 2017-11-14 02:07:31.337 GoogleSoftwareUpdateAgent[3425/0x700000f31000] [lvl=2] -[KSOutOfProcessFetcher(PrivateMethods) helperErrorAvailable:] KSOutOfProcessFetcher helper tool raw STDERR:
+	:	<>
+Nov 14 02:07:31 AnshulG-MBP GoogleSoftwareUpdateAgent[3425]: 2017-11-14 02:07:31.338 GoogleSoftwareUpdateAgent[3425/0x700000f31000] [lvl=2] -[KSOutOfProcessFetcher(PrivateMethods) helperDidTerminate:] KSOutOfProcessFetcher fetch ended for URL: "https://tools.google.com/service/update2?cup2hreq=f9f62b695e7cc93f66262275546b52af35d30ce93ab4325b0e3c519715d0f9c0&cup2key=7:797546534"
+Nov 14 02:07:31 AnshulG-MBP GoogleSoftwareUpdateAgent[3425]: 2017-11-14 02:07:31.339 GoogleSoftwareUpdateAgent[3425/0x700000f31000] [lvl=2] -[KSUpdateCheckAction(KSServerUpdateRequestDelegate) serverRequest:fetchedWithResponse:] KSUpdateCheckAction received KSServerUpdateResponse: <KSOmahaServerUpdateResponse:0x10675b320
+		server=<KSOmahaServer:0x100549240>
+		url="https://tools.google.com/service/update2?cup2hreq=f9f62b695e7cc93f66262275546b52af35d30ce93ab4325b0e3c519715d0f9c0&cup2key=7:797546534"
+		tickets=1
+		status=200
+		data=
+			<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+			<response protocol="3.0" server="prod">
+			    <daystart elapsed_days="3969" elapsed_seconds="45452"></daystart>
+			    <app appid="com.google.Keystone" cohort="1:0:" cohortname="Everyone" status="ok">
+			        <ping status="ok"></ping>
+			        <updatecheck status="noupdate"></updatecheck>
+			    </app>
+			</response>
+	>
+Nov 14 02:07:31 AnshulG-MBP GoogleSoftwareUpdateAgent[3425]: 2017-11-14 02:07:31.340 GoogleSoftwareUpdateAgent[3425/0x700000f31000] [lvl=2] -[KSOmahaServer updateInfosForUpdateResponse:updateRequest:infoStore:upToDateTickets:updatedTickets:events:errors:] Response passed CUP validation.
+Nov 14 02:07:31 AnshulG-MBP GoogleSoftwareUpdateAgent[3425]: 2017-11-14 02:07:31.357 GoogleSoftwareUpdateAgent[3425/0x700000f31000] [lvl=2] -[KSUpdateCheckAction(PrivateMethods) finishAction] KSUpdateCheckAction found updates: {( )}
+Nov 14 02:07:31 AnshulG-MBP GoogleSoftwareUpdateAgent[3425]: 2017-11-14 02:07:31.358 GoogleSoftwareUpdateAgent[3425/0x700000f31000] [lvl=2] -[KSPrefetchAction performAction] KSPrefetchAction no updates to prefetch.
+Nov 14 02:07:31 AnshulG-MBP GoogleSoftwareUpdateAgent[3425]: 2017-11-14 02:07:31.358 GoogleSoftwareUpdateAgent[3425/0x700000f31000] [lvl=2] -[KSMultiUpdateAction performAction] KSSilentUpdateAction had no updates to apply.
+Nov 14 02:07:31 AnshulG-MBP GoogleSoftwareUpdateAgent[3425]: 2017-11-14 02:07:31.359 GoogleSoftwareUpdateAgent[3425/0x700000f31000] [lvl=2] -[KSMultiUpdateAction performAction] KSPromptAction had no updates to apply.
+Nov 14 02:07:31 AnshulG-MBP GoogleSoftwareUpdateAgent[3425]: 2017-11-14 02:07:31.359 GoogleSoftwareUpdateAgent[3425/0x700000f31000] [lvl=2] -[KSEngineInvocation(KeystoneDelegate) updateEngineFinishedWithErrors:] Keystone finished: errors=0
+Nov 14 02:07:31 AnshulG-MBP GoogleSoftwareUpdateAgent[3425]: 2017-11-14 02:07:31.359 GoogleSoftwareUpdateAgent[3425/0x700000f31000] [lvl=2] -[KSUpdateEngine(PrivateMethods) updateFinish] KSUpdateEngine update processing complete.
+Nov 14 02:07:31 AnshulG-MBP GoogleSoftwareUpdateAgent[3425]: 2017-11-14 02:07:31.360 GoogleSoftwareUpdateAgent[3425/0x700000f31000] [lvl=2] -[KSEngineInvocation(KeystoneThread) updateProductWithProductID:usingEngine:error:] Done checking for updates for '"com.google.Keystone"' using engine <KSUpdateEngine:0x1002a1d50
+		ticketStore=<KSPersistentTicketStore:0x10022d2f0 store=<KSKeyedPersistentStore:0x10022df60
+			path="/Users/Anshul.G/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore"
+			lockFile=<KSLockFile:0x1002980e0
+				path="/Users/Anshul.G/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore.lock"
+				locked=NO
+			>
+		>>
+		processor=<KSActionProcessor:0x1005637d0
+			delegate=<KSUpdateEngine:0x1002a1d50>
+			isProcessing=NO actionsCompleted=0 progress=0.00
+			errors=0 currentActionErrors=0
+			events=0 currentActionEvents=0
+			actionQueue=( )
+		>
+		delegate=<KSEngineInvocation: 0x1002824d0>
+		serverInfoStore=<KSServerPrivateInfoStore:0x1002a1230 path="/Users/Anshul.G/Library/Google/GoogleSoftwareUpdate/Servers">
+		errors=0
+	>
+Nov 14 02:07:31 AnshulG-MBP GoogleSoftwareUpdateAgent[3425]: 2017-11-14 02:07:31.360 GoogleSoftwareUpdateAgent[3425/0x700000f31000] [lvl=2] -[KSEngineInvocation(KeystoneThread) performSelfUpdateWithEngine:error:] Finished self update check.
+Nov 14 02:07:31 AnshulG-MBP GoogleSoftwareUpdateAgent[3425]: 2017-11-14 02:07:31.360 GoogleSoftwareUpdateAgent[3425/0x700000f31000] [lvl=2] -[KSEngineInvocation(KeystoneThread) runKeystonesInThread] About to run checks for any other apps.
+Nov 14 02:07:31 AnshulG-MBP GoogleSoftwareUpdateAgent[3425]: 2017-11-14 02:07:31.360 GoogleSoftwareUpdateAgent[3425/0x700000f31000] [lvl=2] -[KSEngineInvocation(KeystoneThread) updateProductWithProductID:usingEngine:error:] Checking for updates for "All Products" using engine <KSUpdateEngine:0x1002a1d50
+		ticketStore=<KSPersistentTicketStore:0x10022d2f0 store=<KSKeyedPersistentStore:0x10022df60
+			path="/Users/Anshul.G/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore"
+			lockFile=<KSLockFile:0x1002980e0
+				path="/Users/Anshul.G/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore.lock"
+				locked=NO
+			>
+		>>
+		processor=<KSActionProcessor:0x1005637d0
+			delegate=<KSUpdateEngine:0x1002a1d50>
+			isProcessing=NO actionsCompleted=0 progress=0.00
+			errors=0 currentActionErrors=0
+			events=0 currentActionEvents=0
+			actionQueue=( )
+		>
+		delegate=(null)
+		serverInfoStore=<KSServerPrivateInfoStore:0x1002a1230 path="/Users/Anshul.G/Library/Google/GoogleSoftwareUpdate/Servers">
+		errors=0
+	>
+Nov 14 02:07:31 AnshulG-MBP GoogleSoftwareUpdateAgent[3425]: 2017-11-14 02:07:31.361 GoogleSoftwareUpdateAgent[3425/0x700000f31000] [lvl=2] -[KSUpdateEngine updateAllExceptProduct:] KSUpdateEngine updating all installed products, except:'com.google.Keystone'.
+Nov 14 02:07:31 AnshulG-MBP GoogleSoftwareUpdateAgent[3425]: 2017-11-14 02:07:31.362 GoogleSoftwareUpdateAgent[3425/0x700000f31000] [lvl=2] -[KSCheckAction performAction] KSCheckAction checking 2 ticket(s).
+Nov 14 02:07:31 AnshulG-MBP GoogleSoftwareUpdateAgent[3425]: 2017-11-14 02:07:31.366 GoogleSoftwareUpdateAgent[3425/0x700000f31000] [lvl=2] -[KSUpdateCheckAction performAction] KSUpdateCheckAction starting update check for ticket(s): {(
+		<KSTicket:0x10042cb30
+			productID=com.google.android.mtpviewer
+			version=1.0.50.2266
+			xc=<KSPathExistenceChecker:0x10042cbc0 path=/Applications/Android File Transfer.app>
+			serverType=Omaha
+			url=https://tools.google.com/service/update2
+			creationDate=2017-10-09 08:40:09
+			ticketVersion=1
+		>,
+		<KSTicket:0x10057c7f0
+			productID=com.google.Chrome
+			version=61.0.3163.100
+			xc=<KSPathExistenceChecker:0x1067753e0 path=/Applications/Google Chrome.app>
+			serverType=Omaha
+			url=https://tools.google.com/service/update2
+			creationDate=2017-10-04 06:45:17
+			tagPath=/Applications/Google Chrome.app/Contents/Info.plist
+			tagKey=KSChannelID
+			brandPath=/Users/Anshul.G/Library/Google/Google Chrome Brand.plist
+			brandKey=KSBrandID
+			versionPath=/Applications/Google Chrome.app/Contents/Info.plist
+			versionKey=KSVersion
+			cohort=1:1y5:lul@0.25
+			cohortName=Stable
+			ticketVersion=1
+		>
+	)}
+	Using server: <KSOmahaServer:0x10674dc80
+		engine=<KSUpdateEngine:0x1002a1d50>
+	>
+Nov 14 02:07:31 AnshulG-MBP GoogleSoftwareUpdateAgent[3425]: 2017-11-14 02:07:31.373 GoogleSoftwareUpdateAgent[3425/0x700000f31000] [lvl=2] +[KSCodeSigningVerification verifyBundle:applicationId:error:] KSCodeSigningVerification verifying code signing for '/Applications/Android File Transfer.app' with the requirement 'anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists and certificate leaf[subject.OU]="EQHXZ8M8AV" and (identifier="com.google.android.mtpviewer")'
+Nov 14 02:07:31 AnshulG-MBP GoogleSoftwareUpdateAgent[3425]: 2017-11-14 02:07:31.414 GoogleSoftwareUpdateAgent[3425/0x700000f31000] [lvl=2] +[KSCodeSigningVerification verifyBundle:applicationId:error:] KSCodeSigningVerification verifying code signing for '/Applications/Google Chrome.app' with the requirement 'anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists and certificate leaf[subject.OU]="EQHXZ8M8AV" and (identifier="com.google.Chrome")'
+Nov 14 02:07:32 AnshulG-MBP GoogleSoftwareUpdateAgent[3425]: 2017-11-14 02:07:32.068 GoogleSoftwareUpdateAgent[3425/0x700000f31000] [lvl=2] -[KSUpdateCheckAction performAction] KSUpdateCheckAction running KSServerUpdateRequest: <KSOmahaServerUpdateRequest:0x10058ab20
+		server=<KSOmahaServer:0x10674dc80>
+		url="https://tools.google.com/service/update2?cup2hreq=59899d7cfaa710795c3eccfe10d17144f81b9940531713a298100f956d6ce38f&cup2key=7:3148239591"
+		fallbackURLs=(
+			http://tools.google.com/service/update2?cup2hreq=59899d7cfaa710795c3eccfe10d17144f81b9940531713a298100f956d6ce38f&cup2key=7:3433998163
+		)
+		runningFetchers=0
+		tickets=2
+		body=
+			<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+			<request protocol="3.0" version="KeystoneAgent-1.2.9.98" ismachine="0" requestid="{DB5FD148-4512-4B01-979F-7E5376A02FF3}" dedup="cr" sessionid="{9A30039E-D2F1-435A-B429-6AFCCB653EBD}">
+			    <os platform="mac" version="10.12" arch="x86_64h" sp="10.12.6_x86_64h"></os>
+			    <app appid="com.google.android.mtpviewer" version="1.0.50.2266" lang="en-us" installage="35" brand="GGLG" signed="1">
+			        <ping rd="3969" ping_freshness="{56E2FE0B-9DD9-478C-BCFE-D939D64FDBE8}"></ping>
+			        <updatecheck></updatecheck>
+			    </app>
+			    <app appid="com.google.Chrome" version="61.0.3163.100" cohort="1:1y5:lul@0.25" cohortname="Stable" lang="en-us" installage="40" installdate="3927" brand="CHFA" _numaccounts="1" _numsignedin="0" signed="1">
+			        <ping rd="3969" ad="3969" ping_freshness="{50A83081-075A-4C37-8BAB-5CB0211E556E}"></ping>
+			        <updatecheck></updatecheck>
+			    </app>
+			</request>
+		headers={
+			"X-GoogleUpdate-Interactivity" = bg;
+		}
+	>
+Nov 14 02:07:32 AnshulG-MBP GoogleSoftwareUpdateAgent[3425]: 2017-11-14 02:07:32.069 GoogleSoftwareUpdateAgent[3425/0x700000f31000] [lvl=2] -[KSOutOfProcessFetcher beginFetchWithDelegate:] KSOutOfProcessFetcher start fetch from URL: "https://tools.google.com/service/update2?cup2hreq=59899d7cfaa710795c3eccfe10d17144f81b9940531713a298100f956d6ce38f&cup2key=7:3148239591"
+Nov 14 02:07:32 AnshulG-MBP GoogleSoftwareUpdateAgent[3425]: 2017-11-14 02:07:32.069 GoogleSoftwareUpdateAgent[3425/0x700000f31000] [lvl=2] -[KSOutOfProcessFetcher(PrivateMethods) launchedHelperTaskForToolPath:error:] KSOutOfProcessFetcher launched '/Users/Anshul.G/Library/Google/GoogleSoftwareUpdate/GoogleSoftwareUpdate.bundle/Contents/MacOS/ksfetch' with process id: 3428
+Nov 14 02:07:32 AnshulG-MBP GoogleSoftwareUpdateAgent[3425]: 2017-11-14 02:07:32.070 GoogleSoftwareUpdateAgent[3425/0x700000f31000] [lvl=2] -[KSOutOfProcessFetcher beginFetchWithDelegate:] KSOutOfProcessFetcher fetching from URL: "https://tools.google.com/service/update2?cup2hreq=59899d7cfaa710795c3eccfe10d17144f81b9940531713a298100f956d6ce38f&cup2key=7:3148239591"
+Nov 14 02:07:32 AnshulG-MBP ksfetch[3428]: 2017-11-14 02:07:32.095 ksfetch[3428/0x7fffa965b3c0] [lvl=2] KSHelperReceiveAllData() KSHelperTool read 2338 bytes from stdin.
+Nov 14 02:07:32 AnshulG-MBP ksfetch[3428]: 2017-11-14 02:07:32.097 ksfetch[3428/0x7fffa965b3c0] [lvl=2] main() Fetcher received a request: <NSMutableURLRequest: 0x1005009d0> { URL: https://tools.google.com/service/update2?cup2hreq=59899d7cfaa710795c3eccfe10d17144f81b9940531713a298100f956d6ce38f&cup2key=7:3148239591 }
+Nov 14 02:07:32 AnshulG-MBP ksfetch[3428]: 2017-11-14 02:07:32.097 ksfetch[3428/0x7fffa965b3c0] [lvl=2] main() Fetcher received a download path: /tmp/KSOutOfProcessFetcher.vZhKeUniPx/download
+Nov 14 02:07:32 AnshulG-MBP ksfetch[3428]: 2017-11-14 02:07:32.098 ksfetch[3428/0x7fffa965b3c0] [lvl=2] main() ksfetch fetching URL (<NSMutableURLRequest: 0x1005009d0> { URL: https://tools.google.com/service/update2?cup2hreq=59899d7cfaa710795c3eccfe10d17144f81b9940531713a298100f956d6ce38f&cup2key=7:3148239591 }) to folder:/tmp/KSOutOfProcessFetcher.vZhKeUniPx/download
+Nov 14 02:07:32 AnshulG-MBP ksfetch[3428]: 2017-11-14 02:07:32.098 ksfetch[3428/0x7fffa965b3c0] [lvl=2] main() Setting up download file handles...
+Nov 14 02:07:33 AnshulG-MBP ksfetch[3428]: 2017-11-14 02:07:33.532 ksfetch[3428/0x7fffa965b3c0] [lvl=2] -[FetchDelegate fetcher:finishedWithData:] Fetcher downloaded successfully data of length: 0
+Nov 14 02:07:33 AnshulG-MBP ksfetch[3428]: 2017-11-14 02:07:33.532 ksfetch[3428/0x7fffa965b3c0] [lvl=2] main() ksfetch done fetching.
+Nov 14 02:07:33 AnshulG-MBP ksfetch[3428]: 2017-11-14 02:07:33.537 ksfetch[3428/0x7fffa965b3c0] [lvl=2] main() Fetcher is exiting.
+Nov 14 02:07:33 AnshulG-MBP GoogleSoftwareUpdateAgent[3425]: 2017-11-14 02:07:33.541 GoogleSoftwareUpdateAgent[3425/0x700000f31000] [lvl=2] -[KSOutOfProcessFetcher(PrivateMethods) helperErrorAvailable:] KSOutOfProcessFetcher helper tool raw STDERR:
+	:	<>
+Nov 14 02:07:33 AnshulG-MBP GoogleSoftwareUpdateAgent[3425]: 2017-11-14 02:07:33.542 GoogleSoftwareUpdateAgent[3425/0x700000f31000] [lvl=2] -[KSOutOfProcessFetcher(PrivateMethods) helperDidTerminate:] KSOutOfProcessFetcher fetch ended for URL: "https://tools.google.com/service/update2?cup2hreq=59899d7cfaa710795c3eccfe10d17144f81b9940531713a298100f956d6ce38f&cup2key=7:3148239591"
+Nov 14 02:07:33 AnshulG-MBP GoogleSoftwareUpdateAgent[3425]: 2017-11-14 02:07:33.543 GoogleSoftwareUpdateAgent[3425/0x700000f31000] [lvl=2] -[KSUpdateCheckAction(KSServerUpdateRequestDelegate) serverRequest:fetchedWithResponse:] KSUpdateCheckAction received KSServerUpdateResponse: <KSOmahaServerUpdateResponse:0x100577b60
+		server=<KSOmahaServer:0x10674dc80>
+		url="https://tools.google.com/service/update2?cup2hreq=59899d7cfaa710795c3eccfe10d17144f81b9940531713a298100f956d6ce38f&cup2key=7:3148239591"
+		tickets=2
+		status=200
+		data=
+			<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+			<response protocol="3.0" server="prod">
+			    <daystart elapsed_days="3969" elapsed_seconds="45454"></daystart>
+			    <app appid="com.google.android.mtpviewer" cohort="" cohortname="" status="ok">
+			        <ping status="ok"></ping>
+			        <updatecheck status="noupdate"></updatecheck>
+			    </app>
+			    <app appid="com.google.Chrome" cohort="1:1y5:lul@0.25" cohortname="Stable" status="ok">
+			        <ping status="ok"></ping>
+			        <updatecheck status="noupdate"></updatecheck>
+			    </app>
+			</response>
+	>
+Nov 14 02:07:33 AnshulG-MBP GoogleSoftwareUpdateAgent[3425]: 2017-11-14 02:07:33.544 GoogleSoftwareUpdateAgent[3425/0x700000f31000] [lvl=2] -[KSOmahaServer updateInfosForUpdateResponse:updateRequest:infoStore:upToDateTickets:updatedTickets:events:errors:] Response passed CUP validation.
+Nov 14 02:07:33 AnshulG-MBP GoogleSoftwareUpdateAgent[3425]: 2017-11-14 02:07:33.550 GoogleSoftwareUpdateAgent[3425/0x700000f31000] [lvl=2] -[KSUpdateCheckAction(PrivateMethods) finishAction] KSUpdateCheckAction found updates: {( )}
+Nov 14 02:07:33 AnshulG-MBP GoogleSoftwareUpdateAgent[3425]: 2017-11-14 02:07:33.552 GoogleSoftwareUpdateAgent[3425/0x700000f31000] [lvl=2] -[KSPrefetchAction performAction] KSPrefetchAction no updates to prefetch.
+Nov 14 02:07:33 AnshulG-MBP GoogleSoftwareUpdateAgent[3425]: 2017-11-14 02:07:33.552 GoogleSoftwareUpdateAgent[3425/0x700000f31000] [lvl=2] -[KSMultiUpdateAction performAction] KSSilentUpdateAction had no updates to apply.
+Nov 14 02:07:33 AnshulG-MBP GoogleSoftwareUpdateAgent[3425]: 2017-11-14 02:07:33.552 GoogleSoftwareUpdateAgent[3425/0x700000f31000] [lvl=2] -[KSMultiUpdateAction performAction] KSPromptAction had no updates to apply.
+Nov 14 02:07:33 AnshulG-MBP GoogleSoftwareUpdateAgent[3425]: 2017-11-14 02:07:33.552 GoogleSoftwareUpdateAgent[3425/0x700000f31000] [lvl=2] -[KSEngineInvocation(KeystoneDelegate) updateEngineFinishedWithErrors:] Keystone finished: errors=0
+Nov 14 02:07:33 AnshulG-MBP GoogleSoftwareUpdateAgent[3425]: 2017-11-14 02:07:33.552 GoogleSoftwareUpdateAgent[3425/0x700000f31000] [lvl=2] -[KSUpdateEngine(PrivateMethods) updateFinish] KSUpdateEngine update processing complete.
+Nov 14 02:07:33 AnshulG-MBP GoogleSoftwareUpdateAgent[3425]: 2017-11-14 02:07:33.553 GoogleSoftwareUpdateAgent[3425/0x700000f31000] [lvl=2] -[KSEngineInvocation(KeystoneThread) updateProductWithProductID:usingEngine:error:] Done checking for updates for '"All Products"' using engine <KSUpdateEngine:0x1002a1d50
+		ticketStore=<KSPersistentTicketStore:0x10022d2f0 store=<KSKeyedPersistentStore:0x10022df60
+			path="/Users/Anshul.G/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore"
+			lockFile=<KSLockFile:0x1002980e0
+				path="/Users/Anshul.G/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore.lock"
+				locked=NO
+			>
+		>>
+		processor=<KSActionProcessor:0x10042a890
+			delegate=<KSUpdateEngine:0x1002a1d50>
+			isProcessing=NO actionsCompleted=0 progress=0.00
+			errors=0 currentActionErrors=0
+			events=0 currentActionEvents=0
+			actionQueue=( )
+		>
+		delegate=<KSEngineInvocation: 0x1002824d0>
+		serverInfoStore=<KSServerPrivateInfoStore:0x1002a1230 path="/Users/Anshul.G/Library/Google/GoogleSoftwareUpdate/Servers">
+		errors=0
+	>
+Nov 14 02:07:34 AnshulG-MBP GoogleSoftwareUpdateAgent[3425]: 2017-11-14 02:07:34.921 GoogleSoftwareUpdateAgent[3425/0x700000f31000] [lvl=2] -[KSAgentUploader fetcher:finishedWithData:] Successfully uploaded stats to <NSMutableURLRequest: 0x100581140> { URL: https://tools.google.com/service/update2 }
+Nov 14 02:07:34 AnshulG-MBP GoogleSoftwareUpdateAgent[3425]: 2017-11-14 02:07:34.921 GoogleSoftwareUpdateAgent[3425/0x700000f31000] [lvl=2] -[KSAgentApp(PrivateMethods) uploadStats:forInvocation:error:] Successfully uploaded stats <KSStatsCollection:0x100501ea0 path="/Users/Anshul.G/Library/Google/GoogleSoftwareUpdate/Stats/Keystone.stats", count=5, stats={
+	    checks = 2;
+	    tickets = 2;
+	    usertickets = 3;
+	    validtickets = 2;
+	    validusertickets = 3;
+	}>
+Nov 14 02:07:34 AnshulG-MBP GoogleSoftwareUpdateAgent[3425]: 2017-11-14 02:07:34.924 GoogleSoftwareUpdateAgent[3425/0x700000f31000] [lvl=2] -[KSEngineInvocation(KeystoneThread) runKeystonesInThread] Failed to upload Keystone statistics: (null)
+Nov 14 02:07:35 AnshulG-MBP GoogleSoftwareUpdateAgent[3425]: 2017-11-14 02:07:35.991 GoogleSoftwareUpdateAgent[3425/0x700000f31000] [lvl=2] -[KSEngineInvocation(KeystoneThread) runKeystonesInThread] Finished with engine thread
+Nov 14 02:07:35 AnshulG-MBP GoogleSoftwareUpdateAgent[3425]: 2017-11-14 02:07:35.996 GoogleSoftwareUpdateAgent[3425/0x700000f31000] [lvl=2] -[KSAgentApp(PrivateMethods) setUpLoggerOutputForVerboseMode:] Agent default/global settings: <KSAgentSettings:0x100227b80 bundleID=com.google.Keystone.Agent lastCheck=2017-11-13 20:37:33 +0000 lastServerCheck=2017-10-13 07:45:01 +0000 lastCheckStart=2017-11-13 20:37:30 +0000 checkInterval=18000.000000 uiDisplayInterval=604800.000000 sleepInterval=1800.000000 jitterInterval=900 maxRunInterval=0.000000 isConsoleUser=1 ticketStorePath=/Users/Anshul.G/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore runMode=3 daemonUpdateEngineBrokerServiceName=com.google.Keystone.Daemon.UpdateEngine daemonAdministrationServiceName=com.google.Keystone.Daemon.Administration alwaysPromptForUpdates=0 lastUIDisplayed=(null) alwaysShowStatusItem=0 updateCheckTag=(null) printResults=NO userInitiated=NO>
+Nov 14 02:07:36 AnshulG-MBP GoogleSoftwareUpdateAgent[3425]: 2017-11-14 02:07:36.353 GoogleSoftwareUpdateAgent[3425/0x7fffa965b3c0] [lvl=2] -[KSAgentApp(PrivateMethods) checkForUpdatesUsingArguments:invocation:error:] Finished update check.
+Nov 14 02:10:22 AnshulG-MBP com.apple.xpc.launchd[1] (com.apple.quicklook[3429]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Nov 14 02:10:22 AnshulG-MBP syslogd[37]: ASL Sender Statistics
+Nov 14 02:11:19 AnshulG-MBP UserEventAgent[36]: assertion failed: 16G29: com.apple.telemetry + 58408 [165E935B-9099-32D4-945F-270EC2E89A29]: 0x5
+Nov 14 02:14:33 AnshulG-MBP com.apple.xpc.launchd[1] (com.apple.quicklook[3430]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Nov 14 02:18:43 AnshulG-MBP com.apple.xpc.launchd[1] (com.apple.quicklook[3432]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Nov 14 02:21:19 AnshulG-MBP UserEventAgent[36]: assertion failed: 16G29: com.apple.telemetry + 58408 [165E935B-9099-32D4-945F-270EC2E89A29]: 0x5
+Nov 14 02:21:19 AnshulG-MBP syslogd[37]: ASL Sender Statistics
+Nov 14 02:22:54 AnshulG-MBP com.apple.xpc.launchd[1] (com.apple.quicklook[3433]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Nov 14 02:27:05 AnshulG-MBP com.apple.xpc.launchd[1] (com.apple.quicklook[3434]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Nov 14 02:31:16 AnshulG-MBP com.apple.xpc.launchd[1] (com.apple.quicklook[3439]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Nov 14 02:31:19 AnshulG-MBP UserEventAgent[36]: assertion failed: 16G29: com.apple.telemetry + 58408 [165E935B-9099-32D4-945F-270EC2E89A29]: 0x5
+Nov 14 02:31:19 AnshulG-MBP syslogd[37]: ASL Sender Statistics
+Nov 14 04:35:09 AnshulG-MBP syslogd[37]: ASL Sender Statistics
+Nov 14 04:35:09 AnshulG-MBP com.apple.xpc.launchd[1] (com.apple.bsd.dirhelper[3442]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.bsd.dirhelper
+Nov 14 05:35:13 AnshulG-MBP syslogd[37]: ASL Sender Statistics
+Nov 14 05:35:15 AnshulG-MBP com.apple.xpc.launchd[1] (com.apple.quicklook[3468]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Nov 14 07:35:25 AnshulG-MBP WindowServer[120]: 145353.431 [DFR] ERR [_DFRDisplayUsbRecvComplete] failed 0xe00002eb
+Nov 14 07:35:25 AnshulG-MBP syslogd[37]: ASL Sender Statistics
+Nov 14 07:35:25 AnshulG-MBP WindowServer[120]: 145353.433 [DFR] [deviceTerminate] 
+Nov 14 07:35:25 AnshulG-MBP WindowServer[120]: 145353.433 [DFR] [_DFRDisplayDeviceRemoved] 
+Nov 14 07:35:25 AnshulG-MBP WindowServer[120]: 145353.433 [DFR] [___DFRDisplayDeviceRemoved_block_invoke] calling client detach callback
+Nov 14 07:35:25 AnshulG-MBP WindowServer[120]: 145353.433 [DFR] [_DFRDisplayClose] 
+Nov 14 07:35:25 AnshulG-MBP WindowServer[120]: 145353.882 [DFR] [deviceMatch] 
+Nov 14 07:35:25 AnshulG-MBP WindowServer[120]: 145353.882 [DFR] [_DFRDisplayDeviceAdded] 
+Nov 14 07:35:25 AnshulG-MBP WindowServer[120]: 145353.883 [DFR] [_DFRDisplayUsbStart] 
+Nov 14 07:35:25 AnshulG-MBP WindowServer[120]: 145353.884 [DFR] [_DFRDisplayOpen] 
+Nov 14 07:35:25 AnshulG-MBP WindowServer[120]: 145353.885 [DFR] [_DFRDisplayOpen] sending GetInfo
+Nov 14 07:35:25 AnshulG-MBP WindowServer[120]: 145353.886 [DFR] [_DFRDisplayHandleVendorPacket] kDFRDisplayCommandGetInfo ready: 0
+Nov 14 07:35:25 AnshulG-MBP WindowServer[120]: 145353.886 [DFR] [_DFRDisplayHandleVendorPacket] calling client attach callback
+Nov 14 07:35:25 AnshulG-MBP WindowServer[120]: 145353.886 [DFR] [_DFRDisplayHandleVendorPacket] kDFRDisplayCommandGetInfo ready: 1
+Nov 14 07:35:25 AnshulG-MBP PrintUITool[411]: notify name "com.apple.system.powersources.source" has been registered 20 times - this may be a leak
+Nov 14 09:35:37 AnshulG-MBP WindowServer[120]: 152565.432 [DFR] [deviceTerminate] 
+Nov 14 09:35:37 AnshulG-MBP WindowServer[120]: 152565.433 [DFR] [_DFRDisplayDeviceRemoved] 
+Nov 14 09:35:37 AnshulG-MBP WindowServer[120]: 152565.435 [DFR] [___DFRDisplayDeviceRemoved_block_invoke] calling client detach callback
+Nov 14 09:35:37 AnshulG-MBP syslogd[37]: ASL Sender Statistics
+Nov 14 09:35:37 AnshulG-MBP WindowServer[120]: 152565.435 [DFR] [_DFRDisplayClose] 
+Nov 14 09:35:37 AnshulG-MBP WindowServer[120]: 152565.884 [DFR] [deviceMatch] 
+Nov 14 09:35:37 AnshulG-MBP WindowServer[120]: 152565.884 [DFR] [_DFRDisplayDeviceAdded] 
+Nov 14 09:35:37 AnshulG-MBP WindowServer[120]: 152565.885 [DFR] [_DFRDisplayUsbStart] 
+Nov 14 09:35:37 AnshulG-MBP WindowServer[120]: 152565.885 [DFR] [_DFRDisplayOpen] 
+Nov 14 09:35:37 AnshulG-MBP WindowServer[120]: 152565.887 [DFR] [_DFRDisplayOpen] sending GetInfo
+Nov 14 09:35:37 AnshulG-MBP WindowServer[120]: 152565.889 [DFR] [_DFRDisplayHandleVendorPacket] kDFRDisplayCommandGetInfo ready: 0
+Nov 14 09:35:37 AnshulG-MBP WindowServer[120]: 152565.889 [DFR] [_DFRDisplayHandleVendorPacket] calling client attach callback
+Nov 14 09:35:37 AnshulG-MBP WindowServer[120]: 152565.890 [DFR] [_DFRDisplayHandleVendorPacket] kDFRDisplayCommandGetInfo ready: 1
+Nov 14 11:35:49 AnshulG-MBP WindowServer[120]: 159777.433 [DFR] [deviceTerminate] 
+Nov 14 11:35:49 AnshulG-MBP syslogd[37]: ASL Sender Statistics
+Nov 14 11:35:49 AnshulG-MBP WindowServer[120]: 159777.436 [DFR] [_DFRDisplayDeviceRemoved] 
+Nov 14 11:35:49 AnshulG-MBP WindowServer[120]: 159777.438 [DFR] ERR [_DFRDisplaySendPacket] WritePipe failed 0xe00002c0
+Nov 14 11:35:49 AnshulG-MBP WindowServer[120]: 159777.438 [DFR] [___DFRDisplayDeviceRemoved_block_invoke] calling client detach callback
+Nov 14 11:35:49 AnshulG-MBP WindowServer[120]: 159777.438 [DFR] [_DFRDisplayClose] 
+Nov 14 11:35:49 AnshulG-MBP WindowServer[120]: 159777.892 [DFR] [deviceMatch] 
+Nov 14 11:35:49 AnshulG-MBP WindowServer[120]: 159777.892 [DFR] [_DFRDisplayDeviceAdded] 
+Nov 14 11:35:49 AnshulG-MBP WindowServer[120]: 159777.892 [DFR] [_DFRDisplayUsbStart] 
+Nov 14 11:35:49 AnshulG-MBP WindowServer[120]: 159777.892 [DFR] [_DFRDisplayOpen] 
+Nov 14 11:35:49 AnshulG-MBP WindowServer[120]: 159777.893 [DFR] [_DFRDisplayOpen] sending GetInfo
+Nov 14 11:35:49 AnshulG-MBP WindowServer[120]: 159777.895 [DFR] [_DFRDisplayHandleVendorPacket] kDFRDisplayCommandGetInfo ready: 0
+Nov 14 11:35:49 AnshulG-MBP WindowServer[120]: 159777.895 [DFR] [_DFRDisplayHandleVendorPacket] calling client attach callback
+Nov 14 11:35:49 AnshulG-MBP WindowServer[120]: 159777.895 [DFR] [_DFRDisplayHandleVendorPacket] kDFRDisplayCommandGetInfo ready: 1
+Nov 14 11:46:21 AnshulG-MBP WindowServer[120]: 160409.537 [DFR] [deviceTerminate] 
+Nov 14 11:46:21 AnshulG-MBP WindowServer[120]: 160409.540 [DFR] [_DFRDisplayDeviceRemoved] 
+Nov 14 11:46:21 AnshulG-MBP syslogd[37]: ASL Sender Statistics
+Nov 14 11:46:21 AnshulG-MBP WindowServer[120]: 160409.542 [DFR] ERR [_DFRDisplaySendPacket] WritePipe failed 0xe00002c0
+Nov 14 11:46:21 AnshulG-MBP WindowServer[120]: 160409.542 [DFR] [___DFRDisplayDeviceRemoved_block_invoke] calling client detach callback
+Nov 14 11:46:21 AnshulG-MBP WindowServer[120]: 160409.542 [DFR] [_DFRDisplayClose] 
+Nov 14 11:46:21 AnshulG-MBP WindowServer[120]: 160409.985 [DFR] [deviceMatch] 
+Nov 14 11:46:21 AnshulG-MBP WindowServer[120]: 160409.985 [DFR] [_DFRDisplayDeviceAdded] 
+Nov 14 11:46:21 AnshulG-MBP WindowServer[120]: 160409.986 [DFR] [_DFRDisplayUsbStart] 
+Nov 14 11:46:21 AnshulG-MBP WindowServer[120]: 160409.986 [DFR] [_DFRDisplayOpen] 
+Nov 14 11:46:21 AnshulG-MBP WindowServer[120]: 160409.987 [DFR] [_DFRDisplayOpen] sending GetInfo
+Nov 14 11:46:21 AnshulG-MBP WindowServer[120]: 160409.989 [DFR] [_DFRDisplayHandleVendorPacket] kDFRDisplayCommandGetInfo ready: 0
+Nov 14 11:46:21 AnshulG-MBP WindowServer[120]: 160409.989 [DFR] [_DFRDisplayHandleVendorPacket] calling client attach callback
+Nov 14 11:46:21 AnshulG-MBP WindowServer[120]: 160409.989 [DFR] [_DFRDisplayHandleVendorPacket] kDFRDisplayCommandGetInfo ready: 1
+Nov 14 11:46:23 AnshulG-MBP com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Nov 14 11:46:30 AnshulG-MBP xpcproxy[3493]: libcoreservices: _dirhelper_userdir: 523: bootstrap_look_up returned 268435459
+Nov 14 11:59:26 AnshulG-MBP syslogd[37]: ASL Sender Statistics
+Nov 14 11:59:26 AnshulG-MBP xpcproxy[3502]: libcoreservices: _dirhelper_userdir: 523: bootstrap_look_up returned 268435459
+Nov 14 11:59:32 AnshulG-MBP com.apple.xpc.launchd[1] (com.apple.netbiosd): Service only ran for 6 seconds. Pushing respawn out by 4 seconds.
+Nov 14 11:59:36 AnshulG-MBP xpcproxy[3506]: libcoreservices: _dirhelper_userdir: 523: bootstrap_look_up returned 268435459
+Nov 14 12:00:02 AnshulG-MBP com.apple.xpc.launchd[1] (com.apple.quicklook[3510]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Nov 14 12:01:36 AnshulG-MBP UserEventAgent[36]: assertion failed: 16G29: com.apple.telemetry + 58408 [165E935B-9099-32D4-945F-270EC2E89A29]: 0x5
+Nov 14 12:04:13 AnshulG-MBP com.apple.xpc.launchd[1] (com.apple.quicklook[3515]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Nov 14 12:08:24 AnshulG-MBP com.apple.xpc.launchd[1] (com.apple.quicklook[3523]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Nov 14 12:09:44 AnshulG-MBP syslogd[37]: ASL Sender Statistics
+Nov 14 12:11:34 AnshulG-MBP UserEventAgent[36]: assertion failed: 16G29: com.apple.telemetry + 58408 [165E935B-9099-32D4-945F-270EC2E89A29]: 0x5
+Nov 14 12:12:34 AnshulG-MBP com.apple.xpc.launchd[1] (com.apple.quicklook[3533]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Nov 14 12:12:46 AnshulG-MBP secinitd[339]: BUG in libdispatch: 16G29 - 3804 - 0x4
+Nov 14 12:12:47 AnshulG-MBP cloudd[400]: notify name "com.apple.cloudkit.pcs.flushCaches" has been registered 40 times - this may be a leak
+Nov 14 12:12:47 AnshulG-MBP cloudd[400]: notify name "com.apple.security.view-change.PCS" has been registered 20 times - this may be a leak
+Nov 14 12:12:47 AnshulG-MBP cloudd[400]: notify name "com.apple.ProtectedCloudStorage.HaveCredentials" has been registered 20 times - this may be a leak
+Nov 14 12:12:47 AnshulG-MBP cloudd[400]: notify name "com.apple.cloudkit.pcs.flushCaches" has been registered 60 times - this may be a leak
+Nov 14 12:12:50 --- last message repeated 1 time ---
+Nov 14 12:12:50 AnshulG-MBP cloudd[400]: notify name "com.apple.cloudkit.pcs.flushCaches" has been registered 40 times - this may be a leak
+Nov 14 12:16:57 AnshulG-MBP com.apple.xpc.launchd[1] (com.apple.quicklook[3548]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Nov 14 12:21:11 AnshulG-MBP com.apple.xpc.launchd[1] (com.apple.quicklook[3553]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Nov 14 12:21:11 AnshulG-MBP syslogd[37]: ASL Sender Statistics
+Nov 14 12:21:36 AnshulG-MBP UserEventAgent[36]: assertion failed: 16G29: com.apple.telemetry + 58408 [165E935B-9099-32D4-945F-270EC2E89A29]: 0x5
+Nov 14 12:25:21 AnshulG-MBP com.apple.xpc.launchd[1] (com.apple.quicklook[3576]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Nov 14 12:28:26 AnshulG-MBP GoogleSoftwareUpdateAgent[6278]: 2017-11-14 12:28:26.848 GoogleSoftwareUpdateAgent[6278/0x7fffa965b3c0] [lvl=2] -[KSAgentApp(PrivateMethods) setUpLoggerOutputForVerboseMode:] Agent default/global settings: <KSAgentSettings:0x1005062e0 bundleID=com.google.Keystone.Agent lastCheck=2017-11-13 20:37:36 +0000 lastServerCheck=2017-10-13 07:45:01 +0000 lastCheckStart=2017-11-13 20:37:30 +0000 checkInterval=18000.000000 uiDisplayInterval=604800.000000 sleepInterval=1800.000000 jitterInterval=900 maxRunInterval=0.000000 isConsoleUser=1 ticketStorePath=/Users/Anshul.G/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore runMode=3 daemonUpdateEngineBrokerServiceName=com.google.Keystone.Daemon.UpdateEngine daemonAdministrationServiceName=com.google.Keystone.Daemon.Administration alwaysPromptForUpdates=0 lastUIDisplayed=(null) alwaysShowStatusItem=0 updateCheckTag=(null) printResults=NO userInitiated=NO>
+Nov 14 12:28:26 AnshulG-MBP GoogleSoftwareUpdateAgent[6278]: 2017-11-14 12:28:26.850 GoogleSoftwareUpdateAgent[6278/0x7fffa965b3c0] [lvl=2] -[KSAgentApp(PrivateMethods) checkForUpdatesUsingArguments:invocation:error:] Starting update check.
+Nov 14 12:28:26 AnshulG-MBP GoogleSoftwareUpdateAgent[6278]: 2017-11-14 12:28:26.852 GoogleSoftwareUpdateAgent[6278/0x700007ed2000] [lvl=2] -[KSEngineInvocation(KeystoneThread) runKeystonesInThread] Starting engine thread
+Nov 14 12:28:26 AnshulG-MBP GoogleSoftwareUpdateAgent[6278]: 2017-11-14 12:28:26.866 GoogleSoftwareUpdateAgent[6278/0x700007ed2000] [lvl=2] -[KSEngineInvocation(KeystoneThread) runKeystonesInThread] No functional system update engine detected. Only user tickets will be processed.
+Nov 14 12:28:26 AnshulG-MBP GoogleSoftwareUpdateAgent[6278]: 2017-11-14 12:28:26.869 GoogleSoftwareUpdateAgent[6278/0x700007ed2000] [lvl=2] -[KSEngineInvocation(KeystoneThread) runKeystonesInThread] Checking with local engine: <KSUpdateEngine:0x100443940
+		ticketStore=<KSPersistentTicketStore:0x1002043d0 store=<KSKeyedPersistentStore:0x100243bb0
+			path="/Users/Anshul.G/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore"
+			lockFile=<KSLockFile:0x100244770
+				path="/Users/Anshul.G/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore.lock"
+				locked=NO
+			>
+		>>
+		processor=<KSActionProcessor:0x100443b40
+			delegate=<KSUpdateEngine:0x100443940>
+			isProcessing=NO actionsCompleted=0 progress=0.00
+			errors=0 currentActionErrors=0
+			events=0 currentActionEvents=0
+			actionQueue=( )
+		>
+		delegate=(null)
+		serverInfoStore=<KSServerPrivateInfoStore:0x100442b30 path="/Users/Anshul.G/Library/Google/GoogleSoftwareUpdate/Servers">
+		errors=0
+	>
+Nov 14 12:28:26 AnshulG-MBP GoogleSoftwareUpdateAgent[6278]: 2017-11-14 12:28:26.870 GoogleSoftwareUpdateAgent[6278/0x700007ed2000] [lvl=2] -[KSEngineInvocation(KeystoneThread) performSelfUpdateWithEngine:error:] Checking for self update with Engine: <KSUpdateEngine:0x100443940
+		ticketStore=<KSPersistentTicketStore:0x1002043d0 store=<KSKeyedPersistentStore:0x100243bb0
+			path="/Users/Anshul.G/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore"
+			lockFile=<KSLockFile:0x100244770
+				path="/Users/Anshul.G/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore.lock"
+				locked=NO
+			>
+		>>
+		processor=<KSActionProcessor:0x100443b40
+			delegate=<KSUpdateEngine:0x100443940>
+			isProcessing=NO actionsCompleted=0 progress=0.00
+			errors=0 currentActionErrors=0
+			events=0 currentActionEvents=0
+			actionQueue=( )
+		>
+		delegate=(null)
+		serverInfoStore=<KSServerPrivateInfoStore:0x100442b30 path="/Users/Anshul.G/Library/Google/GoogleSoftwareUpdate/Servers">
+		errors=0
+	>
+Nov 14 12:28:26 AnshulG-MBP GoogleSoftwareUpdateAgent[6278]: 2017-11-14 12:28:26.870 GoogleSoftwareUpdateAgent[6278/0x700007ed2000] [lvl=2] -[KSEngineInvocation(KeystoneThread) performSelfUpdateWithEngine:error:] This process may be killed if self-update is necessary. In such cases, sub-processes may still be running to complete the self-update.
+Nov 14 12:28:26 AnshulG-MBP GoogleSoftwareUpdateAgent[6278]: 2017-11-14 12:28:26.870 GoogleSoftwareUpdateAgent[6278/0x700007ed2000] [lvl=2] -[KSEngineInvocation(KeystoneThread) updateProductWithProductID:usingEngine:error:] Checking for updates for "com.google.Keystone" using engine <KSUpdateEngine:0x100443940
+		ticketStore=<KSPersistentTicketStore:0x1002043d0 store=<KSKeyedPersistentStore:0x100243bb0
+			path="/Users/Anshul.G/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore"
+			lockFile=<KSLockFile:0x100244770
+				path="/Users/Anshul.G/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore.lock"
+				locked=NO
+			>
+		>>
+		processor=<KSActionProcessor:0x100443b40
+			delegate=<KSUpdateEngine:0x100443940>
+			isProcessing=NO actionsCompleted=0 progress=0.00
+			errors=0 currentActionErrors=0
+			events=0 currentActionEvents=0
+			actionQueue=( )
+		>
+		delegate=(null)
+		serverInfoStore=<KSServerPrivateInfoStore:0x100442b30 path="/Users/Anshul.G/Library/Google/GoogleSoftwareUpdate/Servers">
+		errors=0
+	>
+Nov 14 12:28:26 AnshulG-MBP GoogleSoftwareUpdateAgent[6278]: 2017-11-14 12:28:26.874 GoogleSoftwareUpdateAgent[6278/0x700007ed2000] [lvl=2] -[KSUpdateEngine updateProductID:] KSUpdateEngine updating product ID: "com.google.Keystone"
+Nov 14 12:28:26 AnshulG-MBP GoogleSoftwareUpdateAgent[6278]: 2017-11-14 12:28:26.877 GoogleSoftwareUpdateAgent[6278/0x700007ed2000] [lvl=2] -[KSCheckAction performAction] KSCheckAction checking 1 ticket(s).
+Nov 14 12:28:26 AnshulG-MBP GoogleSoftwareUpdateAgent[6278]: 2017-11-14 12:28:26.884 GoogleSoftwareUpdateAgent[6278/0x700007ed2000] [lvl=2] -[KSUpdateCheckAction performAction] KSUpdateCheckAction starting update check for ticket(s): {(
+		<KSTicket:0x1003a8cb0
+			productID=com.google.Keystone
+			version=1.2.9.98
+			xc=<KSPathExistenceChecker:0x1003a4a20 path=/Users/Anshul.G/Library/Google/GoogleSoftwareUpdate/GoogleSoftwareUpdate.bundle>
+			url=https://tools.google.com/service/update2
+			creationDate=2017-10-04 06:45:17
+			cohort=1:0:
+			cohortName=Everyone
+			ticketVersion=1
+		>
+	)}
+	Using server: <KSOmahaServer:0x10050bfd0
+		engine=<KSUpdateEngine:0x100443940>
+	>
+Nov 14 12:28:26 AnshulG-MBP GoogleSoftwareUpdateAgent[6278]: 2017-11-14 12:28:26.912 GoogleSoftwareUpdateAgent[6278/0x700007ed2000] [lvl=2] +[KSCodeSigningVerification verifyBundle:applicationId:error:] KSCodeSigningVerification verifying code signing for '/Users/Anshul.G/Library/Google/GoogleSoftwareUpdate/GoogleSoftwareUpdate.bundle/Contents/MacOS/GoogleSoftwareUpdateDaemon' with the requirement 'anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists and certificate leaf[subject.OU]="EQHXZ8M8AV" and (identifier="com.google.Keystone")'
+Nov 14 12:28:26 AnshulG-MBP GoogleSoftwareUpdateAgent[6278]: 2017-11-14 12:28:26.955 GoogleSoftwareUpdateAgent[6278/0x700007ed2000] [lvl=2] -[KSUpdateCheckAction performAction] KSUpdateCheckAction running KSServerUpdateRequest: <KSOmahaServerUpdateRequest:0x100284590
+		server=<KSOmahaServer:0x10050bfd0>
+		url="https://tools.google.com/service/update2?cup2hreq=e3ca2f1e1b5678e404f3e6b5c3934fa16ac0b7d5128e4f6fe708504f6662bfb0&cup2key=7:659755994"
+		fallbackURLs=(
+			http://tools.google.com/service/update2?cup2hreq=e3ca2f1e1b5678e404f3e6b5c3934fa16ac0b7d5128e4f6fe708504f6662bfb0&cup2key=7:2912102024
+		)
+		runningFetchers=0
+		tickets=1
+		body=
+			<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+			<request protocol="3.0" version="KeystoneAgent-1.2.9.98" ismachine="0" requestid="{279D7F53-6BFE-4DC0-82F7-AB197D81FA7A}" dedup="cr" sessionid="{AA20CDE9-FE14-41DB-BB13-C551171040BD}">
+			    <os platform="mac" version="10.12" arch="x86_64h" sp="10.12.6_x86_64h"></os>
+			    <app appid="com.google.Keystone" version="1.2.9.98" cohort="1:0:" cohortname="Everyone" lang="en-us" installage="41" installdate="3927" brand="GGLG" signed="1">
+			        <ping rd="3969" ad="3969" ping_freshness="{08B7AC0A-7783-4D8B-970E-C52E3E77E63F}"></ping>
+			        <updatecheck></updatecheck>
+			    </app>
+			</request>
+		headers={
+			"X-GoogleUpdate-Interactivity" = bg;
+		}
+	>
+Nov 14 12:28:26 AnshulG-MBP GoogleSoftwareUpdateAgent[6278]: 2017-11-14 12:28:26.955 GoogleSoftwareUpdateAgent[6278/0x700007ed2000] [lvl=2] -[KSOutOfProcessFetcher beginFetchWithDelegate:] KSOutOfProcessFetcher start fetch from URL: "https://tools.google.com/service/update2?cup2hreq=e3ca2f1e1b5678e404f3e6b5c3934fa16ac0b7d5128e4f6fe708504f6662bfb0&cup2key=7:659755994"
+Nov 14 12:28:26 AnshulG-MBP GoogleSoftwareUpdateAgent[6278]: 2017-11-14 12:28:26.956 GoogleSoftwareUpdateAgent[6278/0x700007ed2000] [lvl=2] -[KSOutOfProcessFetcher(PrivateMethods) launchedHelperTaskForToolPath:error:] KSOutOfProcessFetcher launched '/Users/Anshul.G/Library/Google/GoogleSoftwareUpdate/GoogleSoftwareUpdate.bundle/Contents/MacOS/ksfetch' with process id: 6280
+Nov 14 12:28:26 AnshulG-MBP GoogleSoftwareUpdateAgent[6278]: 2017-11-14 12:28:26.957 GoogleSoftwareUpdateAgent[6278/0x700007ed2000] [lvl=2] -[KSOutOfProcessFetcher beginFetchWithDelegate:] KSOutOfProcessFetcher fetching from URL: "https://tools.google.com/service/update2?cup2hreq=e3ca2f1e1b5678e404f3e6b5c3934fa16ac0b7d5128e4f6fe708504f6662bfb0&cup2key=7:659755994"
+Nov 14 12:28:26 AnshulG-MBP ksfetch[6280]: 2017-11-14 12:28:26.985 ksfetch[6280/0x7fffa965b3c0] [lvl=2] KSHelperReceiveAllData() KSHelperTool read 2035 bytes from stdin.
+Nov 14 12:28:26 AnshulG-MBP ksfetch[6280]: 2017-11-14 12:28:26.986 ksfetch[6280/0x7fffa965b3c0] [lvl=2] main() Fetcher received a request: <NSMutableURLRequest: 0x100402500> { URL: https://tools.google.com/service/update2?cup2hreq=e3ca2f1e1b5678e404f3e6b5c3934fa16ac0b7d5128e4f6fe708504f6662bfb0&cup2key=7:659755994 }
+Nov 14 12:28:26 AnshulG-MBP ksfetch[6280]: 2017-11-14 12:28:26.987 ksfetch[6280/0x7fffa965b3c0] [lvl=2] main() Fetcher received a download path: /tmp/KSOutOfProcessFetcher.gKZvI3lOaY/download
+Nov 14 12:28:26 AnshulG-MBP ksfetch[6280]: 2017-11-14 12:28:26.987 ksfetch[6280/0x7fffa965b3c0] [lvl=2] main() ksfetch fetching URL (<NSMutableURLRequest: 0x100402500> { URL: https://tools.google.com/service/update2?cup2hreq=e3ca2f1e1b5678e404f3e6b5c3934fa16ac0b7d5128e4f6fe708504f6662bfb0&cup2key=7:659755994 }) to folder:/tmp/KSOutOfProcessFetcher.gKZvI3lOaY/download
+Nov 14 12:28:26 AnshulG-MBP ksfetch[6280]: 2017-11-14 12:28:26.988 ksfetch[6280/0x7fffa965b3c0] [lvl=2] main() Setting up download file handles...
+Nov 14 12:28:27 AnshulG-MBP ksfetch[6280]: 2017-11-14 12:28:27.640 ksfetch[6280/0x7fffa965b3c0] [lvl=2] -[FetchDelegate fetcher:finishedWithData:] Fetcher downloaded successfully data of length: 0
+Nov 14 12:28:27 AnshulG-MBP ksfetch[6280]: 2017-11-14 12:28:27.641 ksfetch[6280/0x7fffa965b3c0] [lvl=2] main() ksfetch done fetching.
+Nov 14 12:28:27 AnshulG-MBP ksfetch[6280]: 2017-11-14 12:28:27.645 ksfetch[6280/0x7fffa965b3c0] [lvl=2] main() Fetcher is exiting.
+Nov 14 12:28:27 AnshulG-MBP GoogleSoftwareUpdateAgent[6278]: 2017-11-14 12:28:27.649 GoogleSoftwareUpdateAgent[6278/0x700007ed2000] [lvl=2] -[KSOutOfProcessFetcher(PrivateMethods) helperErrorAvailable:] KSOutOfProcessFetcher helper tool raw STDERR:
+	:	<>
+Nov 14 12:28:27 AnshulG-MBP GoogleSoftwareUpdateAgent[6278]: 2017-11-14 12:28:27.650 GoogleSoftwareUpdateAgent[6278/0x700007ed2000] [lvl=2] -[KSOutOfProcessFetcher(PrivateMethods) helperDidTerminate:] KSOutOfProcessFetcher fetch ended for URL: "https://tools.google.com/service/update2?cup2hreq=e3ca2f1e1b5678e404f3e6b5c3934fa16ac0b7d5128e4f6fe708504f6662bfb0&cup2key=7:659755994"
+Nov 14 12:28:27 AnshulG-MBP GoogleSoftwareUpdateAgent[6278]: 2017-11-14 12:28:27.651 GoogleSoftwareUpdateAgent[6278/0x700007ed2000] [lvl=2] -[KSUpdateCheckAction(KSServerUpdateRequestDelegate) serverRequest:fetchedWithResponse:] KSUpdateCheckAction received KSServerUpdateResponse: <KSOmahaServerUpdateResponse:0x100284840
+		server=<KSOmahaServer:0x10050bfd0>
+		url="https://tools.google.com/service/update2?cup2hreq=e3ca2f1e1b5678e404f3e6b5c3934fa16ac0b7d5128e4f6fe708504f6662bfb0&cup2key=7:659755994"
+		tickets=1
+		status=200
+		data=
+			<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+			<response protocol="3.0" server="prod">
+			    <daystart elapsed_days="3969" elapsed_seconds="82707"></daystart>
+			    <app appid="com.google.Keystone" cohort="1:0:" cohortname="Everyone" status="ok">
+			        <ping status="ok"></ping>
+			        <updatecheck status="noupdate"></updatecheck>
+			    </app>
+			</response>
+	>
+Nov 14 12:28:27 AnshulG-MBP GoogleSoftwareUpdateAgent[6278]: 2017-11-14 12:28:27.652 GoogleSoftwareUpdateAgent[6278/0x700007ed2000] [lvl=2] -[KSOmahaServer updateInfosForUpdateResponse:updateRequest:infoStore:upToDateTickets:updatedTickets:events:errors:] Response passed CUP validation.
+Nov 14 12:28:27 AnshulG-MBP GoogleSoftwareUpdateAgent[6278]: 2017-11-14 12:28:27.667 GoogleSoftwareUpdateAgent[6278/0x700007ed2000] [lvl=2] -[KSUpdateCheckAction(PrivateMethods) finishAction] KSUpdateCheckAction found updates: {( )}
+Nov 14 12:28:27 AnshulG-MBP GoogleSoftwareUpdateAgent[6278]: 2017-11-14 12:28:27.669 GoogleSoftwareUpdateAgent[6278/0x700007ed2000] [lvl=2] -[KSPrefetchAction performAction] KSPrefetchAction no updates to prefetch.
+Nov 14 12:28:27 AnshulG-MBP GoogleSoftwareUpdateAgent[6278]: 2017-11-14 12:28:27.669 GoogleSoftwareUpdateAgent[6278/0x700007ed2000] [lvl=2] -[KSMultiUpdateAction performAction] KSSilentUpdateAction had no updates to apply.
+Nov 14 12:28:27 AnshulG-MBP GoogleSoftwareUpdateAgent[6278]: 2017-11-14 12:28:27.669 GoogleSoftwareUpdateAgent[6278/0x700007ed2000] [lvl=2] -[KSMultiUpdateAction performAction] KSPromptAction had no updates to apply.
+Nov 14 12:28:27 AnshulG-MBP GoogleSoftwareUpdateAgent[6278]: 2017-11-14 12:28:27.670 GoogleSoftwareUpdateAgent[6278/0x700007ed2000] [lvl=2] -[KSEngineInvocation(KeystoneDelegate) updateEngineFinishedWithErrors:] Keystone finished: errors=0
+Nov 14 12:28:27 AnshulG-MBP GoogleSoftwareUpdateAgent[6278]: 2017-11-14 12:28:27.670 GoogleSoftwareUpdateAgent[6278/0x700007ed2000] [lvl=2] -[KSUpdateEngine(PrivateMethods) updateFinish] KSUpdateEngine update processing complete.
+Nov 14 12:28:27 AnshulG-MBP GoogleSoftwareUpdateAgent[6278]: 2017-11-14 12:28:27.670 GoogleSoftwareUpdateAgent[6278/0x700007ed2000] [lvl=2] -[KSEngineInvocation(KeystoneThread) updateProductWithProductID:usingEngine:error:] Done checking for updates for '"com.google.Keystone"' using engine <KSUpdateEngine:0x100443940
+		ticketStore=<KSPersistentTicketStore:0x1002043d0 store=<KSKeyedPersistentStore:0x100243bb0
+			path="/Users/Anshul.G/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore"
+			lockFile=<KSLockFile:0x100244770
+				path="/Users/Anshul.G/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore.lock"
+				locked=NO
+			>
+		>>
+		processor=<KSActionProcessor:0x1004d9190
+			delegate=<KSUpdateEngine:0x100443940>
+			isProcessing=NO actionsCompleted=0 progress=0.00
+			errors=0 currentActionErrors=0
+			events=0 currentActionEvents=0
+			actionQueue=( )
+		>
+		delegate=<KSEngineInvocation: 0x100433fe0>
+		serverInfoStore=<KSServerPrivateInfoStore:0x100442b30 path="/Users/Anshul.G/Library/Google/GoogleSoftwareUpdate/Servers">
+		errors=0
+	>
+Nov 14 12:28:27 AnshulG-MBP GoogleSoftwareUpdateAgent[6278]: 2017-11-14 12:28:27.670 GoogleSoftwareUpdateAgent[6278/0x700007ed2000] [lvl=2] -[KSEngineInvocation(KeystoneThread) performSelfUpdateWithEngine:error:] Finished self update check.
+Nov 14 12:28:27 AnshulG-MBP GoogleSoftwareUpdateAgent[6278]: 2017-11-14 12:28:27.671 GoogleSoftwareUpdateAgent[6278/0x700007ed2000] [lvl=2] -[KSEngineInvocation(KeystoneThread) runKeystonesInThread] About to run checks for any other apps.
+Nov 14 12:28:27 AnshulG-MBP GoogleSoftwareUpdateAgent[6278]: 2017-11-14 12:28:27.671 GoogleSoftwareUpdateAgent[6278/0x700007ed2000] [lvl=2] -[KSEngineInvocation(KeystoneThread) updateProductWithProductID:usingEngine:error:] Checking for updates for "All Products" using engine <KSUpdateEngine:0x100443940
+		ticketStore=<KSPersistentTicketStore:0x1002043d0 store=<KSKeyedPersistentStore:0x100243bb0
+			path="/Users/Anshul.G/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore"
+			lockFile=<KSLockFile:0x100244770
+				path="/Users/Anshul.G/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore.lock"
+				locked=NO
+			>
+		>>
+		processor=<KSActionProcessor:0x1004d9190
+			delegate=<KSUpdateEngine:0x100443940>
+			isProcessing=NO actionsCompleted=0 progress=0.00
+			errors=0 currentActionErrors=0
+			events=0 currentActionEvents=0
+			actionQueue=( )
+		>
+		delegate=(null)
+		serverInfoStore=<KSServerPrivateInfoStore:0x100442b30 path="/Users/Anshul.G/Library/Google/GoogleSoftwareUpdate/Servers">
+		errors=0
+	>
+Nov 14 12:28:27 AnshulG-MBP GoogleSoftwareUpdateAgent[6278]: 2017-11-14 12:28:27.671 GoogleSoftwareUpdateAgent[6278/0x700007ed2000] [lvl=2] -[KSUpdateEngine updateAllExceptProduct:] KSUpdateEngine updating all installed products, except:'com.google.Keystone'.
+Nov 14 12:28:27 AnshulG-MBP GoogleSoftwareUpdateAgent[6278]: 2017-11-14 12:28:27.673 GoogleSoftwareUpdateAgent[6278/0x700007ed2000] [lvl=2] -[KSCheckAction performAction] KSCheckAction checking 2 ticket(s).
+Nov 14 12:28:27 AnshulG-MBP GoogleSoftwareUpdateAgent[6278]: 2017-11-14 12:28:27.677 GoogleSoftwareUpdateAgent[6278/0x700007ed2000] [lvl=2] -[KSUpdateCheckAction performAction] KSUpdateCheckAction starting update check for ticket(s): {(
+		<KSTicket:0x1002442d0
+			productID=com.google.android.mtpviewer
+			version=1.0.50.2266
+			xc=<KSPathExistenceChecker:0x100283540 path=/Applications/Android File Transfer.app>
+			serverType=Omaha
+			url=https://tools.google.com/service/update2
+			creationDate=2017-10-09 08:40:09
+			ticketVersion=1
+		>,
+		<KSTicket:0x10028b100
+			productID=com.google.Chrome
+			version=61.0.3163.100
+			xc=<KSPathExistenceChecker:0x1004ded60 path=/Applications/Google Chrome.app>
+			serverType=Omaha
+			url=https://tools.google.com/service/update2
+			creationDate=2017-10-04 06:45:17
+			tagPath=/Applications/Google Chrome.app/Contents/Info.plist
+			tagKey=KSChannelID
+			brandPath=/Users/Anshul.G/Library/Google/Google Chrome Brand.plist
+			brandKey=KSBrandID
+			versionPath=/Applications/Google Chrome.app/Contents/Info.plist
+			versionKey=KSVersion
+			cohort=1:1y5:lul@0.25
+			cohortName=Stable
+			ticketVersion=1
+		>
+	)}
+	Using server: <KSOmahaServer:0x100262550
+		engine=<KSUpdateEngine:0x100443940>
+	>
+Nov 14 12:28:27 AnshulG-MBP GoogleSoftwareUpdateAgent[6278]: 2017-11-14 12:28:27.684 GoogleSoftwareUpdateAgent[6278/0x700007ed2000] [lvl=2] +[KSCodeSigningVerification verifyBundle:applicationId:error:] KSCodeSigningVerification verifying code signing for '/Applications/Android File Transfer.app' with the requirement 'anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists and certificate leaf[subject.OU]="EQHXZ8M8AV" and (identifier="com.google.android.mtpviewer")'
+Nov 14 12:28:27 AnshulG-MBP GoogleSoftwareUpdateAgent[6278]: 2017-11-14 12:28:27.740 GoogleSoftwareUpdateAgent[6278/0x700007ed2000] [lvl=2] +[KSCodeSigningVerification verifyBundle:applicationId:error:] KSCodeSigningVerification verifying code signing for '/Applications/Google Chrome.app' with the requirement 'anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists and certificate leaf[subject.OU]="EQHXZ8M8AV" and (identifier="com.google.Chrome")'
+Nov 14 12:28:28 AnshulG-MBP GoogleSoftwareUpdateAgent[6278]: 2017-11-14 12:28:28.421 GoogleSoftwareUpdateAgent[6278/0x700007ed2000] [lvl=2] -[KSUpdateCheckAction performAction] KSUpdateCheckAction running KSServerUpdateRequest: <KSOmahaServerUpdateRequest:0x100291e40
+		server=<KSOmahaServer:0x100262550>
+		url="https://tools.google.com/service/update2?cup2hreq=fcf92d48307e5b1bb35863c3910fc79b13cd35f820eb414bbbadc986c6318d30&cup2key=7:2324000823"
+		fallbackURLs=(
+			http://tools.google.com/service/update2?cup2hreq=fcf92d48307e5b1bb35863c3910fc79b13cd35f820eb414bbbadc986c6318d30&cup2key=7:740357233
+		)
+		runningFetchers=0
+		tickets=2
+		body=
+			<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+			<request protocol="3.0" version="KeystoneAgent-1.2.9.98" ismachine="0" requestid="{581BE577-2FB5-4CD8-8F96-848592C4845D}" dedup="cr" sessionid="{AA20CDE9-FE14-41DB-BB13-C551171040BD}">
+			    <os platform="mac" version="10.12" arch="x86_64h" sp="10.12.6_x86_64h"></os>
+			    <app appid="com.google.android.mtpviewer" version="1.0.50.2266" lang="en-us" installage="35" brand="GGLG" signed="1">
+			        <ping rd="3969" ping_freshness="{252CA0D4-A03C-4D3F-A7D8-10B5F68E2653}"></ping>
+			        <updatecheck></updatecheck>
+			    </app>
+			    <app appid="com.google.Chrome" version="61.0.3163.100" cohort="1:1y5:lul@0.25" cohortname="Stable" lang="en-us" installage="41" installdate="3927" brand="CHFA" _numaccounts="1" _numsignedin="0" signed="1">
+			        <ping rd="3969" ad="3969" ping_freshness="{8BD5D5E4-28B6-43FE-9605-B4B163CEAF88}"></ping>
+			        <updatecheck></updatecheck>
+			    </app>
+			</request>
+		headers={
+			"X-GoogleUpdate-Interactivity" = bg;
+		}
+	>
+Nov 14 12:28:28 AnshulG-MBP GoogleSoftwareUpdateAgent[6278]: 2017-11-14 12:28:28.421 GoogleSoftwareUpdateAgent[6278/0x700007ed2000] [lvl=2] -[KSOutOfProcessFetcher beginFetchWithDelegate:] KSOutOfProcessFetcher start fetch from URL: "https://tools.google.com/service/update2?cup2hreq=fcf92d48307e5b1bb35863c3910fc79b13cd35f820eb414bbbadc986c6318d30&cup2key=7:2324000823"
+Nov 14 12:28:28 AnshulG-MBP GoogleSoftwareUpdateAgent[6278]: 2017-11-14 12:28:28.422 GoogleSoftwareUpdateAgent[6278/0x700007ed2000] [lvl=2] -[KSOutOfProcessFetcher(PrivateMethods) launchedHelperTaskForToolPath:error:] KSOutOfProcessFetcher launched '/Users/Anshul.G/Library/Google/GoogleSoftwareUpdate/GoogleSoftwareUpdate.bundle/Contents/MacOS/ksfetch' with process id: 6281
+Nov 14 12:28:28 AnshulG-MBP GoogleSoftwareUpdateAgent[6278]: 2017-11-14 12:28:28.422 GoogleSoftwareUpdateAgent[6278/0x700007ed2000] [lvl=2] -[KSOutOfProcessFetcher beginFetchWithDelegate:] KSOutOfProcessFetcher fetching from URL: "https://tools.google.com/service/update2?cup2hreq=fcf92d48307e5b1bb35863c3910fc79b13cd35f820eb414bbbadc986c6318d30&cup2key=7:2324000823"
+Nov 14 12:28:28 AnshulG-MBP ksfetch[6281]: 2017-11-14 12:28:28.449 ksfetch[6281/0x7fffa965b3c0] [lvl=2] KSHelperReceiveAllData() KSHelperTool read 2338 bytes from stdin.
+Nov 14 12:28:28 AnshulG-MBP ksfetch[6281]: 2017-11-14 12:28:28.451 ksfetch[6281/0x7fffa965b3c0] [lvl=2] main() Fetcher received a request: <NSMutableURLRequest: 0x100501020> { URL: https://tools.google.com/service/update2?cup2hreq=fcf92d48307e5b1bb35863c3910fc79b13cd35f820eb414bbbadc986c6318d30&cup2key=7:2324000823 }
+Nov 14 12:28:28 AnshulG-MBP ksfetch[6281]: 2017-11-14 12:28:28.451 ksfetch[6281/0x7fffa965b3c0] [lvl=2] main() Fetcher received a download path: /tmp/KSOutOfProcessFetcher.BCWZhuinnK/download
+Nov 14 12:28:28 AnshulG-MBP ksfetch[6281]: 2017-11-14 12:28:28.451 ksfetch[6281/0x7fffa965b3c0] [lvl=2] main() ksfetch fetching URL (<NSMutableURLRequest: 0x100501020> { URL: https://tools.google.com/service/update2?cup2hreq=fcf92d48307e5b1bb35863c3910fc79b13cd35f820eb414bbbadc986c6318d30&cup2key=7:2324000823 }) to folder:/tmp/KSOutOfProcessFetcher.BCWZhuinnK/download
+Nov 14 12:28:28 AnshulG-MBP ksfetch[6281]: 2017-11-14 12:28:28.452 ksfetch[6281/0x7fffa965b3c0] [lvl=2] main() Setting up download file handles...
+Nov 14 12:28:29 AnshulG-MBP ksfetch[6281]: 2017-11-14 12:28:29.795 ksfetch[6281/0x7fffa965b3c0] [lvl=2] -[FetchDelegate fetcher:finishedWithData:] Fetcher downloaded successfully data of length: 0
+Nov 14 12:28:29 AnshulG-MBP ksfetch[6281]: 2017-11-14 12:28:29.795 ksfetch[6281/0x7fffa965b3c0] [lvl=2] main() ksfetch done fetching.
+Nov 14 12:28:29 AnshulG-MBP ksfetch[6281]: 2017-11-14 12:28:29.800 ksfetch[6281/0x7fffa965b3c0] [lvl=2] main() Fetcher is exiting.
+Nov 14 12:28:29 AnshulG-MBP GoogleSoftwareUpdateAgent[6278]: 2017-11-14 12:28:29.804 GoogleSoftwareUpdateAgent[6278/0x700007ed2000] [lvl=2] -[KSOutOfProcessFetcher(PrivateMethods) helperErrorAvailable:] KSOutOfProcessFetcher helper tool raw STDERR:
+	:	<>
+Nov 14 12:28:29 AnshulG-MBP GoogleSoftwareUpdateAgent[6278]: 2017-11-14 12:28:29.805 GoogleSoftwareUpdateAgent[6278/0x700007ed2000] [lvl=2] -[KSOutOfProcessFetcher(PrivateMethods) helperDidTerminate:] KSOutOfProcessFetcher fetch ended for URL: "https://tools.google.com/service/update2?cup2hreq=fcf92d48307e5b1bb35863c3910fc79b13cd35f820eb414bbbadc986c6318d30&cup2key=7:2324000823"
+Nov 14 12:28:29 AnshulG-MBP GoogleSoftwareUpdateAgent[6278]: 2017-11-14 12:28:29.806 GoogleSoftwareUpdateAgent[6278/0x700007ed2000] [lvl=2] -[KSUpdateCheckAction(KSServerUpdateRequestDelegate) serverRequest:fetchedWithResponse:] KSUpdateCheckAction received KSServerUpdateResponse: <KSOmahaServerUpdateResponse:0x1004dad40
+		server=<KSOmahaServer:0x100262550>
+		url="https://tools.google.com/service/update2?cup2hreq=fcf92d48307e5b1bb35863c3910fc79b13cd35f820eb414bbbadc986c6318d30&cup2key=7:2324000823"
+		tickets=2
+		status=200
+		data=
+			<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+			<response protocol="3.0" server="prod">
+			    <daystart elapsed_days="3969" elapsed_seconds="82709"></daystart>
+			    <app appid="com.google.android.mtpviewer" cohort="" cohortname="" status="ok">
+			        <ping status="ok"></ping>
+			        <updatecheck status="noupdate"></updatecheck>
+			    </app>
+			    <app appid="com.google.Chrome" cohort="1:1y5:lul@0.25" cohortname="Stable" status="ok">
+			        <ping status="ok"></ping>
+			        <updatecheck status="noupdate"></updatecheck>
+			    </app>
+			</response>
+	>
+Nov 14 12:28:29 AnshulG-MBP GoogleSoftwareUpdateAgent[6278]: 2017-11-14 12:28:29.807 GoogleSoftwareUpdateAgent[6278/0x700007ed2000] [lvl=2] -[KSOmahaServer updateInfosForUpdateResponse:updateRequest:infoStore:upToDateTickets:updatedTickets:events:errors:] Response passed CUP validation.
+Nov 14 12:28:29 AnshulG-MBP GoogleSoftwareUpdateAgent[6278]: 2017-11-14 12:28:29.814 GoogleSoftwareUpdateAgent[6278/0x700007ed2000] [lvl=2] -[KSUpdateCheckAction(PrivateMethods) finishAction] KSUpdateCheckAction found updates: {( )}
+Nov 14 12:28:29 AnshulG-MBP GoogleSoftwareUpdateAgent[6278]: 2017-11-14 12:28:29.815 GoogleSoftwareUpdateAgent[6278/0x700007ed2000] [lvl=2] -[KSPrefetchAction performAction] KSPrefetchAction no updates to prefetch.
+Nov 14 12:28:29 AnshulG-MBP GoogleSoftwareUpdateAgent[6278]: 2017-11-14 12:28:29.815 GoogleSoftwareUpdateAgent[6278/0x700007ed2000] [lvl=2] -[KSMultiUpdateAction performAction] KSSilentUpdateAction had no updates to apply.
+Nov 14 12:28:29 AnshulG-MBP GoogleSoftwareUpdateAgent[6278]: 2017-11-14 12:28:29.816 GoogleSoftwareUpdateAgent[6278/0x700007ed2000] [lvl=2] -[KSMultiUpdateAction performAction] KSPromptAction had no updates to apply.
+Nov 14 12:28:29 AnshulG-MBP GoogleSoftwareUpdateAgent[6278]: 2017-11-14 12:28:29.816 GoogleSoftwareUpdateAgent[6278/0x700007ed2000] [lvl=2] -[KSEngineInvocation(KeystoneDelegate) updateEngineFinishedWithErrors:] Keystone finished: errors=0
+Nov 14 12:28:29 AnshulG-MBP GoogleSoftwareUpdateAgent[6278]: 2017-11-14 12:28:29.816 GoogleSoftwareUpdateAgent[6278/0x700007ed2000] [lvl=2] -[KSUpdateEngine(PrivateMethods) updateFinish] KSUpdateEngine update processing complete.
+Nov 14 12:28:29 AnshulG-MBP GoogleSoftwareUpdateAgent[6278]: 2017-11-14 12:28:29.816 GoogleSoftwareUpdateAgent[6278/0x700007ed2000] [lvl=2] -[KSEngineInvocation(KeystoneThread) updateProductWithProductID:usingEngine:error:] Done checking for updates for '"All Products"' using engine <KSUpdateEngine:0x100443940
+		ticketStore=<KSPersistentTicketStore:0x1002043d0 store=<KSKeyedPersistentStore:0x100243bb0
+			path="/Users/Anshul.G/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore"
+			lockFile=<KSLockFile:0x100244770
+				path="/Users/Anshul.G/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore.lock"
+				locked=NO
+			>
+		>>
+		processor=<KSActionProcessor:0x107109260
+			delegate=<KSUpdateEngine:0x100443940>
+			isProcessing=NO actionsCompleted=0 progress=0.00
+			errors=0 currentActionErrors=0
+			events=0 currentActionEvents=0
+			actionQueue=( )
+		>
+		delegate=<KSEngineInvocation: 0x100433fe0>
+		serverInfoStore=<KSServerPrivateInfoStore:0x100442b30 path="/Users/Anshul.G/Library/Google/GoogleSoftwareUpdate/Servers">
+		errors=0
+	>
+Nov 14 12:28:30 AnshulG-MBP GoogleSoftwareUpdateAgent[6278]: 2017-11-14 12:28:30.666 GoogleSoftwareUpdateAgent[6278/0x700007ed2000] [lvl=2] -[KSAgentUploader fetcher:finishedWithData:] Successfully uploaded stats to <NSMutableURLRequest: 0x100271320> { URL: https://tools.google.com/service/update2 }
+Nov 14 12:28:30 AnshulG-MBP GoogleSoftwareUpdateAgent[6278]: 2017-11-14 12:28:30.667 GoogleSoftwareUpdateAgent[6278/0x700007ed2000] [lvl=2] -[KSAgentApp(PrivateMethods) uploadStats:forInvocation:error:] Successfully uploaded stats <KSStatsCollection:0x100404860 path="/Users/Anshul.G/Library/Google/GoogleSoftwareUpdate/Stats/Keystone.stats", count=5, stats={
+	    checks = 2;
+	    tickets = 2;
+	    usertickets = 3;
+	    validtickets = 2;
+	    validusertickets = 3;
+	}>
+Nov 14 12:28:30 AnshulG-MBP GoogleSoftwareUpdateAgent[6278]: 2017-11-14 12:28:30.670 GoogleSoftwareUpdateAgent[6278/0x700007ed2000] [lvl=2] -[KSEngineInvocation(KeystoneThread) runKeystonesInThread] Failed to upload Keystone statistics: (null)
+Nov 14 12:28:31 AnshulG-MBP GoogleSoftwareUpdateAgent[6278]: 2017-11-14 12:28:31.729 GoogleSoftwareUpdateAgent[6278/0x700007ed2000] [lvl=2] -[KSEngineInvocation(KeystoneThread) runKeystonesInThread] Finished with engine thread
+Nov 14 12:28:31 AnshulG-MBP GoogleSoftwareUpdateAgent[6278]: 2017-11-14 12:28:31.731 GoogleSoftwareUpdateAgent[6278/0x700007ed2000] [lvl=2] -[KSAgentApp(PrivateMethods) setUpLoggerOutputForVerboseMode:] Agent default/global settings: <KSAgentSettings:0x1005062e0 bundleID=com.google.Keystone.Agent lastCheck=2017-11-14 06:58:29 +0000 lastServerCheck=2017-10-13 07:45:01 +0000 lastCheckStart=2017-11-14 06:58:26 +0000 checkInterval=18000.000000 uiDisplayInterval=604800.000000 sleepInterval=1800.000000 jitterInterval=900 maxRunInterval=0.000000 isConsoleUser=1 ticketStorePath=/Users/Anshul.G/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore runMode=3 daemonUpdateEngineBrokerServiceName=com.google.Keystone.Daemon.UpdateEngine daemonAdministrationServiceName=com.google.Keystone.Daemon.Administration alwaysPromptForUpdates=0 lastUIDisplayed=(null) alwaysShowStatusItem=0 updateCheckTag=(null) printResults=NO userInitiated=NO>
+Nov 14 12:28:32 AnshulG-MBP GoogleSoftwareUpdateAgent[6278]: 2017-11-14 12:28:32.117 GoogleSoftwareUpdateAgent[6278/0x7fffa965b3c0] [lvl=2] -[KSAgentApp(PrivateMethods) checkForUpdatesUsingArguments:invocation:error:] Finished update check.
+Nov 14 12:29:32 AnshulG-MBP com.apple.xpc.launchd[1] (com.apple.quicklook[6287]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Nov 14 12:31:36 AnshulG-MBP UserEventAgent[36]: assertion failed: 16G29: com.apple.telemetry + 58408 [165E935B-9099-32D4-945F-270EC2E89A29]: 0x5
+Nov 14 12:31:36 AnshulG-MBP syslogd[37]: ASL Sender Statistics
+Nov 14 12:33:14 AnshulG-MBP login[6290]: USER_PROCESS: 6290 ttys002
+Nov 14 12:33:14 AnshulG-MBP login[6290]: DEAD_PROCESS: 6290 ttys002
+Nov 14 12:33:43 AnshulG-MBP com.apple.xpc.launchd[1] (com.apple.quicklook[6294]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Nov 14 12:40:51 AnshulG-MBP com.apple.xpc.launchd[1] (com.apple.quicklook[6312]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Nov 14 12:41:46 AnshulG-MBP UserEventAgent[36]: assertion failed: 16G29: com.apple.telemetry + 58408 [165E935B-9099-32D4-945F-270EC2E89A29]: 0x5
+Nov 14 12:41:46 AnshulG-MBP syslogd[37]: ASL Sender Statistics
+Nov 14 12:45:02 AnshulG-MBP com.apple.xpc.launchd[1] (com.apple.quicklook[6319]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Nov 14 12:49:13 AnshulG-MBP com.apple.xpc.launchd[1] (com.apple.quicklook[6322]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Nov 14 12:51:43 AnshulG-MBP UserEventAgent[36]: assertion failed: 16G29: com.apple.telemetry + 58408 [165E935B-9099-32D4-945F-270EC2E89A29]: 0x5
+Nov 14 12:53:23 AnshulG-MBP com.apple.xpc.launchd[1] (com.apple.quicklook[6327]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Nov 14 12:53:23 AnshulG-MBP syslogd[37]: ASL Sender Statistics
+Nov 14 12:57:34 AnshulG-MBP com.apple.xpc.launchd[1] (com.apple.quicklook[6328]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Nov 14 12:58:03 AnshulG-MBP com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Nov 14 13:01:45 AnshulG-MBP com.apple.xpc.launchd[1] (com.apple.quicklook[6331]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Nov 14 13:01:45 AnshulG-MBP UserEventAgent[36]: assertion failed: 16G29: com.apple.telemetry + 58408 [165E935B-9099-32D4-945F-270EC2E89A29]: 0x5
+Nov 14 13:04:29 AnshulG-MBP syslogd[37]: ASL Sender Statistics
+Nov 14 13:16:01 AnshulG-MBP syslogd[37]: ASL Sender Statistics
+Nov 14 13:16:01 AnshulG-MBP xpcproxy[6336]: libcoreservices: _dirhelper_userdir: 523: bootstrap_look_up returned 268435459
+Nov 14 13:16:08 AnshulG-MBP com.apple.xpc.launchd[1] (com.apple.netbiosd): Service only ran for 7 seconds. Pushing respawn out by 3 seconds.
+Nov 14 13:16:11 AnshulG-MBP xpcproxy[6339]: libcoreservices: _dirhelper_userdir: 523: bootstrap_look_up returned 268435459
+Nov 14 13:16:43 AnshulG-MBP com.apple.xpc.launchd[1] (com.apple.quicklook[6343]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Nov 14 13:20:54 AnshulG-MBP com.apple.xpc.launchd[1] (com.apple.quicklook[6352]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Nov 14 13:22:24 AnshulG-MBP UserEventAgent[36]: assertion failed: 16G29: com.apple.telemetry + 58408 [165E935B-9099-32D4-945F-270EC2E89A29]: 0x5
+Nov 14 13:25:04 AnshulG-MBP com.apple.xpc.launchd[1] (com.apple.quicklook[6362]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Nov 14 13:27:49 AnshulG-MBP syslogd[37]: ASL Sender Statistics
+Nov 14 13:30:12 AnshulG-MBP com.apple.xpc.launchd[1] (com.apple.quicklook[6369]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Nov 14 13:30:15 AnshulG-MBP xpcproxy[6371]: libcoreservices: _dirhelper_userdir: 523: bootstrap_look_up returned 268435459
+Nov 14 13:33:38 AnshulG-MBP UserEventAgent[36]: assertion failed: 16G29: com.apple.telemetry + 58408 [165E935B-9099-32D4-945F-270EC2E89A29]: 0x5
+Nov 14 13:34:40 AnshulG-MBP com.apple.xpc.launchd[1] (com.apple.quicklook[6378]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Nov 14 13:38:51 AnshulG-MBP com.apple.xpc.launchd[1] (com.apple.quicklook[6384]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Nov 14 13:38:51 AnshulG-MBP syslogd[37]: ASL Sender Statistics
+Nov 14 13:40:57 AnshulG-MBP GoogleSoftwareUpdateAgent[6398]: 2017-11-14 13:40:57.228 GoogleSoftwareUpdateAgent[6398/0x7fffa965b3c0] [lvl=2] -[KSAgentApp(PrivateMethods) setUpLoggerOutputForVerboseMode:] Agent default/global settings: <KSAgentSettings:0x10030a300 bundleID=com.google.Keystone.Agent lastCheck=2017-11-14 06:58:32 +0000 lastServerCheck=2017-10-13 07:45:01 +0000 lastCheckStart=2017-11-14 06:58:26 +0000 checkInterval=18000.000000 uiDisplayInterval=604800.000000 sleepInterval=1800.000000 jitterInterval=900 maxRunInterval=0.000000 isConsoleUser=1 ticketStorePath=/Users/Anshul.G/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore runMode=3 daemonUpdateEngineBrokerServiceName=com.google.Keystone.Daemon.UpdateEngine daemonAdministrationServiceName=com.google.Keystone.Daemon.Administration alwaysPromptForUpdates=0 lastUIDisplayed=(null) alwaysShowStatusItem=0 updateCheckTag=(null) printResults=NO userInitiated=NO>
+Nov 14 13:43:02 AnshulG-MBP com.apple.xpc.launchd[1] (com.apple.quicklook[6408]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Nov 14 13:43:38 AnshulG-MBP UserEventAgent[36]: assertion failed: 16G29: com.apple.telemetry + 58408 [165E935B-9099-32D4-945F-270EC2E89A29]: 0x5
+Nov 14 13:47:12 AnshulG-MBP com.apple.xpc.launchd[1] (com.apple.quicklook[6432]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Nov 14 13:50:11 AnshulG-MBP syslogd[37]: ASL Sender Statistics
+Nov 14 13:51:23 AnshulG-MBP com.apple.xpc.launchd[1] (com.apple.quicklook[6445]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Nov 14 13:53:38 AnshulG-MBP UserEventAgent[36]: assertion failed: 16G29: com.apple.telemetry + 58408 [165E935B-9099-32D4-945F-270EC2E89A29]: 0x5
+Nov 14 13:55:34 AnshulG-MBP com.apple.xpc.launchd[1] (com.apple.quicklook[6457]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Nov 14 13:59:44 AnshulG-MBP com.apple.xpc.launchd[1] (com.apple.quicklook[6465]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Nov 14 14:00:28 AnshulG-MBP syslogd[37]: ASL Sender Statistics
+Nov 14 14:03:38 AnshulG-MBP UserEventAgent[36]: assertion failed: 16G29: com.apple.telemetry + 58408 [165E935B-9099-32D4-945F-270EC2E89A29]: 0x5
+Nov 14 14:03:55 AnshulG-MBP com.apple.xpc.launchd[1] (com.apple.quicklook[6473]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Nov 14 14:08:06 AnshulG-MBP com.apple.xpc.launchd[1] (com.apple.quicklook[6495]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Nov 14 14:10:13 AnshulG-MBP com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Nov 14 14:12:16 AnshulG-MBP com.apple.xpc.launchd[1] (com.apple.quicklook[6508]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Nov 14 14:12:16 AnshulG-MBP syslogd[37]: ASL Sender Statistics
+Nov 14 14:13:48 AnshulG-MBP UserEventAgent[36]: assertion failed: 16G29: com.apple.telemetry + 58408 [165E935B-9099-32D4-945F-270EC2E89A29]: 0x5
+Nov 14 14:47:25 AnshulG-MBP syslogd[37]: ASL Sender Statistics
+Nov 14 14:47:25 AnshulG-MBP xpcproxy[6517]: libcoreservices: _dirhelper_userdir: 523: bootstrap_look_up returned 268435459
+Nov 14 14:47:32 AnshulG-MBP com.apple.xpc.launchd[1] (com.apple.netbiosd): Service only ran for 7 seconds. Pushing respawn out by 3 seconds.
+Nov 14 14:47:35 AnshulG-MBP xpcproxy[6522]: libcoreservices: _dirhelper_userdir: 523: bootstrap_look_up returned 268435459
+Nov 14 14:48:51 AnshulG-MBP com.apple.xpc.launchd[1] (com.apple.quicklook[6527]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Nov 14 14:53:01 AnshulG-MBP com.apple.xpc.launchd[1] (com.apple.quicklook[6528]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Nov 14 14:56:12 AnshulG-MBP UserEventAgent[36]: assertion failed: 16G29: com.apple.telemetry + 58408 [165E935B-9099-32D4-945F-270EC2E89A29]: 0x5
+Nov 14 14:57:12 AnshulG-MBP com.apple.xpc.launchd[1] (com.apple.quicklook[6532]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Nov 14 14:57:50 AnshulG-MBP syslogd[37]: ASL Sender Statistics
+Nov 14 14:58:22 AnshulG-MBP com.apple.xpc.launchd[1] (com.apple.quicklook[6539]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Nov 14 14:58:23 AnshulG-MBP diagnosticd[6543]: Send_stream_Request, connecting to Streaming server
+Nov 14 14:58:23 AnshulG-MBP diagnosticd[6543]: System mode client started - Console (6540) - mode: 0x8
+Nov 14 14:58:48 AnshulG-MBP Console[6540]: BUG in libdispatch client: kevent[EVFILT_VNODE] monitored resource vanished before the source cancel handler was invoked
